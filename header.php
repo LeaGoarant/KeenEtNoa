@@ -25,15 +25,14 @@
 
 <body <?php body_class();?>>
     <div id="page" class="site">
-        <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e('Skip to content', 'KeenEtNoa');?></a>
-    <h1 class="blog-title" ><?php echo get_bloginfo('name'); ?></h1>
-    <p>
+    <h1 class="blog-title" ><a href="<?php echo get_bloginfo('wpurl'); ?>"> <?php echo get_bloginfo('name'); ?></a></h1>
+    <p class="lead blog_description"><?php echo get_bloginfo('description'); ?></p>
         <header id="masthead" class="site-header">
         <div class="container header-container">
 			<div class="navbar-header">
 				<div class="site-branding">
-					<?php keen_et_noa_brand();?>
-				</div><!-- .site-branding -->
+				</div>
+                <!-- .site-branding -->
              </div>
 
             <nav id="site-navigation" class="main-navigation site-navigation">
@@ -50,8 +49,6 @@ wp_nav_menu(
         </div>
 
         </header><!--masthead-->
-
-        <?php keen_et_noa_categories_menu();?>
 
 		<div id="content" class="site-content">
 
