@@ -17,6 +17,7 @@
 👤 **Léa Goarant**
 * Github: [Link](https://github.com/LeaGoarant)
 * LinkedIn: [Link](https://www.linkedin.com/in/l%C3%A9a-goarant-rocher-6aa673187/)
+
 👤 **Sébastien Dupuis**
 * Github: [Link](https://github.com/Seb-Dupuis)
 * LinkedIn: [Link](https://www.linkedin.com/in/s%C3%A9bastien-dupuis/)
