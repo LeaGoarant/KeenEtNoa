@@ -10,16 +10,16 @@
 
 ### 🏠 [Homepage](http://keenetnoa.fr/)
 
-### ✨ [Demo](Local wordpress)
+### ✨ [Thème](Local wordpress)
 
 ## Author
 
 👤 **Léa Goarant**
-* Github: [Léa](https://github.com/LeaGoarant)
-* LinkedIn: [@WIP](https://www.linkedin.com/in/l%C3%A9a-goarant-rocher-6aa673187/)
+* Github: [Link](https://github.com/LeaGoarant)
+* LinkedIn: [Link](https://www.linkedin.com/in/l%C3%A9a-goarant-rocher-6aa673187/)
 👤 **Sébastien Dupuis**
-* Github: [@WIP](https://github.com/Seb-Dupuis)
-* LinkedIn: [@WIP](https://www.linkedin.com/in/s%C3%A9bastien-dupuis/)
+* Github: [Link](https://github.com/Seb-Dupuis)
+* LinkedIn: [Link](https://www.linkedin.com/in/s%C3%A9bastien-dupuis/)
 
 
 ## 🤝 Contributing
