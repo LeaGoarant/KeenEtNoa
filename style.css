@@ -15,24 +15,17 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /*  HEADER */
 
-.blog-title {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    color: black;
-    size: 50px;
-    margin-left: 10%;
-}
-
 .site-header {
     background-color: white;
-    height: 15%;
+    height: 60px;
+    margin-bottom: 3%;
 }
 
-.main-navigation.site-navigation {
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-    size: 20px;
+#primary-menu {
+    color: black; 
+    font-style: 'Open Sans', sans-serif;
     display: inline-flex;
     justify-content: space-around;
 }
+
 
