@@ -26,15 +26,6 @@
 
     <div id="page" class="site">
 
-<<<<<<< HEAD
-=======
-        <!-- .site-branding -->
-        <a href="<?php echo get_bloginfo('wpurl'); ?>">
-            <h1 class="blog-title"> <?php echo get_bloginfo('name'); ?></h1>
-        </a>
-        <p class="lead blog_description"><?php echo get_bloginfo('description'); ?></p>
-
->>>>>>> d485ca0a4537b85d68de20d3f1947edcc3adaa09
         <header id="masthead" class="site-header">
             <div class="container header-container">
                 <!-- #site-navigation -->

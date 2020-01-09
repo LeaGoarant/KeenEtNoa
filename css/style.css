@@ -22,10 +22,17 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 #primary-menu {
-    color: black; 
+    margin-top: 2%;
+    text-align: right;
+    justify-content: space-around;
+}
+
+#primary-menu li {
+    list-style: none;
+    color: black;
     font-style: 'Open Sans', sans-serif;
     display: inline-flex;
-    justify-content: space-around;
+    margin-right: 5%;
 }
 
 
