@@ -1,3 +1,19 @@
+/*
+Theme Name: Keenetnoa
+Theme URI: keenetnoa.fr
+Author: Léa Goarant, Sébastien Dupuis   
+Author URI: keenetnoa.fr
+Description: vegan ecommerce theme adapted for the website Keenetnoa.fr
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: keenetnoa
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+=======
 /*  HEADER */
 
 .blog-title {
@@ -19,3 +35,4 @@
     display: flex;
     justify-content: space-around;
 }
+
