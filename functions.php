@@ -25,9 +25,9 @@ add_theme_support('title-tag');
 
 // Modifier le thème avec le panel admin 
 
-	//function custom_setting_add_menu() {
-	//	add_menu_page("Custom Keenetnoa", "Custom Keenetnoa" , "manage_options", "theme-panel", "theme_settings_page", null, 99);
-	//}
-	//add_action("admin_manu", "custom_setting_add_menu"	d);
+	function custom_setting_add_menu() {
+		add_menu_page("Custom Keenetnoa", "Custom Keenetnoa" , "manage_options", "theme-panel", "theme_settings_page", null, 99);
+	}
+	add_action("admin_menu", "custom_setting_add_menu");
 
 
