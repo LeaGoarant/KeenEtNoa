@@ -1,0 +1,21 @@
+/*  HEADER */
+
+.blog-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: black;
+    size: 50px;
+}
+
+.site-header {
+    background-color: white;
+    height: 15%;
+}
+
+.main-navigation.site-navigation {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
