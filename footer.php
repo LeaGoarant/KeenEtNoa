@@ -1,10 +1,7 @@
 </div> <!-- /.container -->
 
 <footer class="blog-footer">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt fermentum maximus. Cras rutrum venenatis lectus, a molestie leo gravida.</p>
-    <p>
-        <a href="#">Back to top</a>
-    </p>
+    
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

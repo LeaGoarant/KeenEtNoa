@@ -22,10 +22,28 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 #primary-menu {
-    color: black; 
-    font-style: 'Open Sans', sans-serif;
-    display: inline-flex;
+    margin-top: 2%;
+    text-align: right;
     justify-content: space-around;
+}
+
+#primary-menu li {
+    list-style: none;
+    display: inline-flex;
+    margin-right: 5%;
+}
+
+#primary-menu a {
+    color: black;
+    font-style: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+#primary-menu a:hover {
+    text-decoration: none;
+    color: #d3b28b;
 }
 
 
