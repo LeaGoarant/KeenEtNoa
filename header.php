@@ -25,12 +25,7 @@
 
     <div id="page" class="site">
 
-        <!-- .site-branding -->
-        <img class="logo-keenetnoa" src="<?php echo get_option('logo'); ?>" alt="logo du site">
-        <a href="<?php echo get_bloginfo('wpurl'); ?>">
-            <h1 class="blog-title"> <?php echo get_bloginfo('name'); ?></h1>
-        </a>
-        <p class="lead blog_description"><?php echo get_bloginfo('description'); ?></p>
+    <img class="logo-keenetnoa" src="<?php echo get_option('logo'); ?>" alt="logo du site">
 
         <header id="masthead" class="site-header">
             <div class="container header-container">
