@@ -6,6 +6,8 @@
 		wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css' );
 
 		wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array( 'jquery' ), '3.4.1', true );
+		wp_register_script ( ' media-uploader ' ,  get_template_directory_uri() . '/js/bootstrap.min.js', array ( ' jquery ' ));
+
 	}
 	add_action( 'wp_enqueue_scripts', 'keenetnoa_scripts' );
 
@@ -30,6 +32,8 @@ add_theme_support('title-tag');
 	}
 	add_action("admin_menu", "custom_setting_add_menu");
 
+
+
 	function theme_settings_page()
 	{
 		?>
@@ -45,27 +49,44 @@ add_theme_support('title-tag');
 			</div>
 		<?php
 	}
-				// Twitter
+
+	add_action('admin_init','custom_settings_page_setup');
+
+	function custom_settings_page_setup ( )
+{
+	add_settings_section('section', 'All setting', null , 'theme-options');
+	add_settings_field('twitter', 'Twitter URL', 'setting_twitter', 'theme-options', 'section');
+	add_settings_field('logo', 'Logo du site', 'setting_logo', 'theme-options', 'section');
+
+
+	register_setting('section', 'twitter');
+	register_setting('section', 'logo', 'handle_file_upload');
+}
+
+function handle_file_upload($option)
+{
+    if(!empty($_FILES['logo']["tmp_name"]))
+    {
+        $urls = wp_handle_upload($_FILES['logo'], array('logo_form' => FALSE));
+        $temp = $urls["url"];
+        return $temp;   
+    }
+
+    return $option;
+}
+
+	// Logo form
+	function setting_logo()
+	{
+	   ?>
+			<input  name="async-upload"  type="file" name="logo-file" /> 
+			<?php echo get_option('logo-file'); ?>
+	   <?php
+	}
+
+	// Twitter form
 	function setting_twitter() { ?>
 
 		<input placeholder="<?php echo get_option('twitter'); ?>", type="text" name="twitter" id="twitter" value="<?php get_option('twitter');?>" />
 
 	<?php }
-				// Logo
-	function setting_logo(){ ?>
-		<input type="file" name="logo" id="logo" alt="submit" value="<?php get_option('logo');?>" />
-
-	<?php }
-
-	function custom_settings_page_setup(){
-		add_settings_section('section', 'All setting', null , 'theme-options');
-		add_settings_field('twitter', 'Twitter URL', 'setting_twitter', 'theme-options', 'section');
-		add_settings_field('logo', 'Logo du site', 'setting_logo', 'theme-options', 'section');
-
-		register_setting('section', 'twitter');
-		register_setting('section', 'logo');
-
-	}
-
-
-	add_action('admin_init','custom_settings_page_setup');
