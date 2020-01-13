@@ -25,12 +25,10 @@
 
     <div id="page" class="site">
 
-
         <header id="masthead" class="site-header">
             <div class="container header-container">
                 <!-- #site-navigation -->
                 <nav id="site-navigation" class="main-navigation site-navigation">
-                <img class="d-flex logo-keenetnoa" src="<?php echo get_option('logo'); ?>" alt="logo du site">
                     <?php wp_nav_menu(array(
                         'theme_location' => 'primary',
                         'menu_id' => 'primary-menu',

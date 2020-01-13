@@ -18,11 +18,19 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .site-header {
     background-color: white;
     height: 60px;
-    margin-bottom: 3%;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#site-navigation {
+    background-image: url('https://image.noelshack.com/fichiers/2020/03/1/1578922348-logo-original.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
 }
 
 #primary-menu {
-    margin-top: 2%;
     text-align: right;
     justify-content: space-around;
 }
@@ -31,6 +39,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
     list-style: none;
     display: inline-flex;
     margin-right: 5%;
+    margin-top: 2%;
 }
 
 #primary-menu a {
@@ -44,6 +53,37 @@ Use it to make something cool, have fun, and share what you've learned with othe
 #primary-menu a:hover {
     text-decoration: none;
     color: #d3b28b;
+}
+
+.blog-post-meta {
+    display: none;
+}
+
+.blog-post-title {
+    display: none;
+}
+
+.home {
+    background-image: url('https://image.noelshack.com/fichiers/2020/03/1/1578913555-imagekeen.jpg');
+    width: 100%;
+    height: 100%;
+}
+
+h1 { 
+    color: black;
+    font-style: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -2px;
+    background-color: white;
+}
+
+.wp-block-group__inner-container {
+    margin-top: -1.5%;
+}
+
+.img-engage{
+    margin-left: 5%;
 }
 
 

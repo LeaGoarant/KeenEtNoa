@@ -2,12 +2,9 @@
 <div class="row">
 	<div class="col-sm-8 blog-main">
 
+		
 
 
-
-
-	</div> <!-- /.blog-main -->
-
-	<?php get_sidebar(); ?>
+	</div>
 </div> <!-- /.row -->
 <?php get_footer(); ?>
