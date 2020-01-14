@@ -29,38 +29,113 @@ body, html {
 
 /*  HEADER */
 
-.site-header {
-    background-color: white;
-    height: 60px;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
+/* NAVIGATION BAR*/
+
+header {
+  background-color: white;
 }
 
+/* .keen_logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 7%;
+}
+
+.keen_logo img {
+  height: auto;
+  width: 100%;
+  margin-left: 19%;
+}
+
+.navigation-bar {
+  display: inline-block;
+  vertical-align: middle;
+  width: 90%;
+  text-align: right;
+}
+
+.navigation-bar li {
+  list-style: none;
+  display: inline-flex;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+.navigation-bar a {
+  color: black;
+  font-style: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
+<<<<<<< HEAD
+  
 #primary-menu {
     text-align: right;
     justify-content: space-around;
+=======
+#primary-menu {
+    text-align: right;
+    justify-content: space-around;
+
+>>>>>>> 8ef1ac561f9709310149e5a53a8727a1b9367cef
 }
 
-#primary-menu li {
-    list-style: none;
-    display: inline-flex;
-    margin-right: 5%;
-    margin-top: 2%;
+.navigation-bar a:hover {
+  text-decoration: none;
+  color: #d3b28b;
+} */
+
+/* Responsive bar */
+
+.responsive-navigation {
+  display: none;
 }
 
-#primary-menu a {
-    color: black;
-    font-style: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: -1px;
+.responsive-navigation {
+  display: none;
 }
 
-#primary-menu a:hover {
-    text-decoration: none;
-    color: #d3b28b;
+@media only screen and (max-width: 480px) {
+  .responsive-navigation {
+    display: block;
+  }
 }
+/* ____________________________ */
+
+/* below the navigation bar */
+
+.blog-post-meta {
+  display: none;
+}
+
+.blog-post-title {
+  display: none;
+}
+
+.home {
+  background-image: url("https://image.noelshack.com/fichiers/2020/03/1/1578913555-imagekeen.jpg");
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: black;
+  font-style: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -2px;
+  background-color: white;
+}
+
+.wp-block-group__inner-container {
+  margin-top: -1.5%;
+}
+
+.img-engage {
+  margin-left: 5%;
+}
+<<<<<<< HEAD
+=======
 
 /* HOMEPAGE */
 
@@ -121,3 +196,4 @@ h2{
 .img-box {
     margin-bottom: 5%;
 }
+>>>>>>> 8ef1ac561f9709310149e5a53a8727a1b9367cef
