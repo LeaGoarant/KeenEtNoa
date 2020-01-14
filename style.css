@@ -15,35 +15,97 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /*  HEADER */
 
-.site-header {
-    background-color: white;
-    height: 60px;
-    margin-bottom: 3%;
+/* NAVIGATION BAR*/
+
+header {
+  background-color: white;
 }
 
-#primary-menu {
-    margin-top: 2%;
-    text-align: right;
-    justify-content: space-around;
+/* .keen_logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 7%;
 }
 
-#primary-menu li {
-    list-style: none;
-    display: inline-flex;
-    margin-right: 5%;
+.keen_logo img {
+  height: auto;
+  width: 100%;
+  margin-left: 19%;
 }
 
-#primary-menu a {
-    color: black;
-    font-style: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: -1px;
+.navigation-bar {
+  display: inline-block;
+  vertical-align: middle;
+  width: 90%;
+  text-align: right;
 }
 
-#primary-menu a:hover {
-    text-decoration: none;
-    color: #d3b28b;
+.navigation-bar li {
+  list-style: none;
+  display: inline-flex;
+  margin-right: 5%;
+  margin-top: 2%;
 }
 
+.navigation-bar a {
+  color: black;
+  font-style: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
 
+.navigation-bar a:hover {
+  text-decoration: none;
+  color: #d3b28b;
+} */
+
+/* Responsive bar */
+
+.responsive-navigation {
+  display: none;
+}
+
+.responsive-navigation {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .responsive-navigation {
+    display: block;
+  }
+}
+/* ____________________________ */
+
+/* below the navigation bar */
+
+.blog-post-meta {
+  display: none;
+}
+
+.blog-post-title {
+  display: none;
+}
+
+.home {
+  background-image: url("https://image.noelshack.com/fichiers/2020/03/1/1578913555-imagekeen.jpg");
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: black;
+  font-style: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -2px;
+  background-color: white;
+}
+
+.wp-block-group__inner-container {
+  margin-top: -1.5%;
+}
+
+.img-engage {
+  margin-left: 5%;
+}

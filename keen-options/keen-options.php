@@ -7,7 +7,6 @@ function keen_options_enqueue_scripts()
 
     if ('appearance_page_keen-settings' == get_current_screen()->id) {
 
-    wp_enqueue_script('jquery');
 
     wp_enqueue_script('thickbox');
     wp_enqueue_style('thickbox');
@@ -49,14 +48,13 @@ add_action('after_setup_theme', 'keen_options_init');
 
 
 
-
-
 // Ajouter le lien "Options Thème" au menu "Apparence
 function keen_menu_options()
 {
     // add_theme_page( $page_title, $menu_title, $capability, $menu_slug, $function);
     add_theme_page('keen Options', 'keen Options', 'edit_theme_options', 'keen-settings', 'keen_admin_options_page');
 }
+
 // Charger la page des options d'administration
 add_action('admin_menu', 'keen_menu_options');
 
@@ -115,16 +113,13 @@ function keen_settings_header_text()
 }
 
 // Form DL HTML
-function wptuts_setting_logo() {
+function keen_setting_logo() {
     $wptuts_options = get_option( 'theme_wptuts_options' );
     ?>
-        <input type="text" id="logo_url" name="theme_wptuts_options[logo]" value="<?php echo esc_url( $wptuts_options['logo'] ); ?>" />
+        <input type="hidden" id="logo_url" name="theme_wptuts_options[logo]" value="<?php echo esc_url( $wptuts_options['logo'] ); ?>" />
         <input id="upload_logo_button" type="button" class="button" value="<?php _e( 'Upload Logo', 'wptuts' ); ?>" />
-        <span class="description"><?php _e('Upload an image for the banner.', 'wptuts' ); ?></span>
     <?php
 }
-
-
 
 
 
