@@ -13,6 +13,20 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+/* GLOBAL */
+
+body, html {
+    width: 100%;
+}
+
+.blog-post-meta {
+    display: none;
+}
+
+.blog-post-title {
+    display: none;
+}
+
 /*  HEADER */
 
 /* NAVIGATION BAR*/
@@ -53,6 +67,10 @@ header {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: -1px;
+  
+#primary-menu {
+    text-align: right;
+    justify-content: space-around;
 }
 
 .navigation-bar a:hover {
