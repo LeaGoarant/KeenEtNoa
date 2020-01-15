@@ -15,16 +15,17 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /* GLOBAL */
 
-body, html {
-    width: 100%;
+body,
+html {
+  width: 100%;
 }
 
 .blog-post-meta {
-    display: none;
+  display: none;
 }
 
 .blog-post-title {
-    display: none;
+  display: none;
 }
 
 /*  HEADER */
@@ -45,58 +46,9 @@ header {
   height: auto;
   width: 100%;
   margin-left: 19%;
-}
-
-.navigation-bar {
-  display: inline-block;
-  vertical-align: middle;
-  width: 90%;
-  text-align: right;
-}
-
-.navigation-bar li {
-  list-style: none;
-  display: inline-flex;
-  margin-right: 5%;
-  margin-top: 2%;
-}
-
-.navigation-bar a {
-  color: black;
-  font-style: "Open Sans", sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: -1px;
-  
-#primary-menu {
-    text-align: right;
-    justify-content: space-around;
-
-#primary-menu {
-    text-align: right;
-    justify-content: space-around;
-}
-
-.navigation-bar a:hover {
-  text-decoration: none;
-  color: #d3b28b;
 } */
 
-/* Responsive bar */
 
-.responsive-navigation {
-  display: none;
-}
-
-.responsive-navigation {
-  display: none;
-}
-
-@media only screen and (max-width: 480px) {
-  .responsive-navigation {
-    display: block;
-  }
-}
 
 /* FOOTER */
 
