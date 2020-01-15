@@ -30,25 +30,34 @@ html {
 
 /*  HEADER */
 
-/* NAVIGATION BAR*/
-
 header {
   background-color: white;
 }
 
-/* .keen_logo {
-  display: inline-block;
-  vertical-align: middle;
-  width: 7%;
+.nav {
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  margin-top: 2%;
+  margin-left: 55%;
 }
 
-.keen_logo img {
-  height: auto;
-  width: 100%;
-  margin-left: 19%;
-} */
+.nav-link {
+  color: black; 
+  font-style: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
 
-
+.nav-link:hover {
+  color: #d3b28b; 
+  font-style: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
 
 /* FOOTER */
 
