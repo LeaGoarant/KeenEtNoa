@@ -68,7 +68,7 @@ class PageTemplater {
 
 		// Add your templates to this array.
 		$this->templates = array(
-			'goodtobebad-template.php' => 'It\'s Good to Be Bad',
+			'frontpage-template.php' => 'Front Page',
 		);
 
 	}
