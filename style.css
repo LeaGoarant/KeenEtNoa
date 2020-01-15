@@ -35,6 +35,10 @@ html {
   width: 100%;
 }
 
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
 .nav-link {
   font-family: "Open Sans", sans-serif;
   color: black;
@@ -107,7 +111,7 @@ h1 {
   font-weight: bold;
   letter-spacing: -2px;
   background-color: white;
-  margin-top: 30%;
+  margin-top: 25%;
   text-align: center;
 }
 
