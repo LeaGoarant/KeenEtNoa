@@ -69,6 +69,7 @@ class PageTemplater {
 		// Add your templates to this array.
 		$this->templates = array(
 			'frontpage-template.php' => 'Front Page',
+			'contact-template.php' => 'Contact',
 		);
 
 	}
