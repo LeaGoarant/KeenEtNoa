@@ -24,11 +24,10 @@
 <body <?php body_class(); ?>>
 
     <header id="masthead" class="site-header">
-
-        <?php wp_nav_menu(array(
-            'theme_location' => 'primary-res-navigation',
-            'menu_class' => 'responsive-navigation'
-            )); ?>
+        <nav id="site-navigation" class="main-navigation" role="navigation">
+            <button class="menu-toggle">Menu</button>
+            <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'nav-menu')); ?>
+        </nav>I
 
     </header>
 

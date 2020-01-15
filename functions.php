@@ -15,8 +15,7 @@ function keenetnoa_scripts()
 	wp_enqueue_style('style', get_template_directory_uri() . '/style.css');
 
 	wp_enqueue_script('bootstrap', get_template_directory_uri() . '/js/bootstrap.js', array('jquery'), '3.4.1', true);
-	wp_enqueue_script('responsiveBar', get_template_directory_uri() . '/js/responsiveBar.js', array('jquery'), '3.4.1', true);
-
+	wp_enqueue_script( 'bpc_togglemenu', get_template_directory_uri() . '/js/navigation.js', array('jquery'), '20160909', true );
 	/* 	wp_register_script(' media-uploader ',  get_template_directory_uri() . '/js/bootstrap.min.js', array(' jquery '));
  */
 }
