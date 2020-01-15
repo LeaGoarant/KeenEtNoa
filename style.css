@@ -67,17 +67,14 @@ header {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: -1px;
-<<<<<<< HEAD
   
 #primary-menu {
     text-align: right;
     justify-content: space-around;
-=======
+
 #primary-menu {
     text-align: right;
     justify-content: space-around;
-
->>>>>>> 8ef1ac561f9709310149e5a53a8727a1b9367cef
 }
 
 .navigation-bar a:hover {
@@ -118,6 +115,37 @@ header {
   height: 100%;
 }
 
+/* FOOTER */
+
+h4 {
+    color: #94b25f;
+    font-style: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.blog-footer {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.logo-keen {
+    max-width: 70%;
+    margin-left: 5%;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 2%;
+}
+
+.v1 {
+    position: absolute;
+    border-left: 2px dotted #94b25f;
+    height: 250px;
+}
+
 h1 {
   color: black;
   font-style: "Open Sans", sans-serif;
@@ -134,8 +162,6 @@ h1 {
 .img-engage {
   margin-left: 5%;
 }
-<<<<<<< HEAD
-=======
 
 /* HOMEPAGE */
 
@@ -196,4 +222,3 @@ h2{
 .img-box {
     margin-bottom: 5%;
 }
->>>>>>> 8ef1ac561f9709310149e5a53a8727a1b9367cef
