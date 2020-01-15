@@ -5,7 +5,7 @@
  */
 
 require_once('keen-options/keen-admin.php');
-
+require_once('PageTemplater/pagetemplater.php');
 
 
 /* file d'attente des scripts et des styles*/
