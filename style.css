@@ -188,3 +188,27 @@ h2{
 .img-box {
     margin-bottom: 5%;
 }
+
+.font-styling {
+    color: black;
+    font-style: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+table {
+  margin-bottom: 5%;
+}
+
+th, td {
+  height: 50px;
+}
+
+.fa-leaf {
+  width: 30px;
+}
+
+tr {
+  border-bottom: 2px dotted #94b25f;
+}

@@ -21,20 +21,47 @@
         <br/>
         <h2 style="color:#94b25f;">NOS ENGAGEMENTS</h2>
         <div class="row">
-            <div class="col-6">
-                <img src="https://www.pngitem.com/pimgs/m/160-1609305_vegan-logo-png-vegan-or-vegetarian-symbol-transparent.png" alt="logo-vegan" class="vegan"/>
-            </div>
-            <div class="col-6">
-                <ul style="list-style-type: none; font-size: 20px; margin-top: 15%">
-                    <li><i class="fa fa-check" style="color:#94b25f;"></i> Vegan</li>
-                    <li><i class="fa fa-check" style="color:#94b25f;"></i> Sans gras trans / sirop à taux de glucose élevé</li>
-                    <li><i class="fa fa-check" style="color:#94b25f;"></i> Pas de substances cancérigènes</li>
-                    <li><i class="fa fa-check" style="color:#94b25f;"></i> Aucun arôme ou colorant artificiel</li>
-                    <li><i class="fa fa-check" style="color:#94b25f;"></i> Sans lactose</li>
-                    <li><i class="fa fa-check" style="color:#94b25f;"></i> Sans OGM</li>
-                    <li><i class="fa fa-check" style="color:#94b25f;"></i> 100% naturel</li>
-                    <li><i class="fa fa-check" style="color:#94b25f;"></i> Sans sucres ajoutés</li>
-                </ul>
+        <div class="col-4"></div>
+        <div class="col-6">
+            <table>
+                <tr>
+                    <th></th>
+                    <th class="font-styling">Tous nos produits respectent au moins une de ces caractéristiques :</th>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-leaf" style="color:#94b25f;"></i></td>
+                    <td>Vegan</td>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-leaf" style="color:#94b25f;"></i></td>
+                    <td>Sans gras trans / sirop à taux de glucose élevé</td>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-leaf" style="color:#94b25f;"></i></td>
+                    <td>Pas de substances cancérigènes</td>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-leaf" style="color:#94b25f;"></i></td>
+                    <td>Aucun arôme ou colorant artificiel</td>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-leaf" style="color:#94b25f;"></i></td>
+                    <td>Sans lactose</td>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-leaf" style="color:#94b25f;"></i></td>
+                    <td>Sans OGM</td>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-leaf" style="color:#94b25f;"></i></td>
+                    <td>100% naturel</td>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-leaf" style="color:#94b25f;"></i></td>
+                    <td>Sans sucres ajoutés</td>
+                </tr>
+            </table>
+
             </div>
         </div>
     </div>
