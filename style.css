@@ -35,32 +35,28 @@ html {
   width: 100%;
 }
 
-.navigation {
+.nav-link {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
   margin-top: 3%;
 }
 
-.navigation a {
-  font-family: "Open Sans", sans-serif;
-  color: black;
-  justify-content: right;
-  list-style: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: -1px;
-}
-
-.navigation a:hover {
+.nav-link:hover {
   font-family: "Open Sans", sans-serif;
   color: #d3b28b;
-  justify-content: right;
   list-style: none;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: -1px;
+  margin-top: 3%;
 }
 
 @media screen and (max-width: 640px) {
-  .navigation a {
+  .nav-link {
     vertical-align: 100%;
   }
 }
