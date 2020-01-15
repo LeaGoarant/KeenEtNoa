@@ -62,6 +62,37 @@ body, html {
     color: #d3b28b;
 }
 
+/* FOOTER */
+
+h4 {
+    color: #94b25f;
+    font-style: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.blog-footer {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.logo-keen {
+    max-width: 70%;
+    margin-left: 5%;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 2%;
+}
+
+.v1 {
+    position: absolute;
+    border-left: 2px dotted #94b25f;
+    height: 250px;
+}
+
 /* HOMEPAGE */
 
 .home-page {
