@@ -30,39 +30,41 @@ html {
 
 /*  HEADER */
 
-/* NAVIGATION BAR*/
-
-header {
-  background-color: white;
-}
-
-.keen_logo img {
+.keen_logo {
   height: auto;
   width: 100%;
-  margin-left: 19%;
-  padding-top: 1%;
 }
-@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
-.navigation a {
-  font-family: "Open Sans", sans-serif !important;
-  color: black !important;
-  size: 20px !important;
-  display: flex !important;
-  justify-content: space-around !important;
-  list-style: none !important;
-  /*   font-weight: bold !important;
- */
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
 }
-.navigation {
-  margin-left: 29%;
-  margin-top: 1%;
+
+.nav-link {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-top: 3%;
+}
+
+.nav-link:hover {
+  font-family: "Open Sans", sans-serif;
+  color: #d3b28b;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-top: 3%;
 }
 
 @media screen and (max-width: 640px) {
-  .navigation a {
+  .nav-link {
     vertical-align: 100%;
   }
 }
+
 /* FOOTER */
 
 h4 {
@@ -109,7 +111,7 @@ h1 {
   font-weight: bold;
   letter-spacing: -2px;
   background-color: white;
-  margin-top: 30%;
+  margin-top: 25%;
   text-align: center;
 }
 
@@ -143,7 +145,7 @@ h2 {
 }
 
 #box {
-  background-color: #94b25f;
+    background-color: #dce4cb;
 }
 
 .img-food {
@@ -152,4 +154,28 @@ h2 {
 
 .img-box {
   margin-bottom: 5%;
+}
+
+.font-styling {
+    color: black;
+    font-style: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+table {
+  margin-bottom: 5%;
+}
+
+th, td {
+  height: 50px;
+}
+
+.fa-leaf {
+  width: 30px;
+}
+
+tr {
+  border-bottom: 2px dotted #94b25f;
 }
