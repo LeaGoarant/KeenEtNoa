@@ -43,13 +43,12 @@ add_action('wp_enqueue_scripts', 'keenetnoa_scripts');
 
 
 /* Ajout des polices googles */
-function keenetnoa_google_fonts()
+function wpb_add_google_fonts()
 {
-	wp_register_style('OpenSans', 'http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
-	wp_enqueue_style('OpenSans');
+	wp_enqueue_style('wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans&display=swap', false);
 }
-add_action('wp_print_styles', 'keenetnoa_google_fonts');
 
+add_action('wp_enqueue_scripts', 'wpb_add_google_fonts');
 
 /* Ajout des titles par page */
 add_theme_support('title-tag');
