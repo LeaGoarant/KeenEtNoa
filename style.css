@@ -30,54 +30,33 @@ html {
 
 /*  HEADER */
 
-/* .nav {
-  height: 60px;
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
-  margin-top: 2%;
-  margin-left: 55%;
-}
-
-.nav-link {
-  color: black; 
-  font-style: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: -1px;
-}
-
-.nav-link:hover {
-  color: #d3b28b; 
-  font-style: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: -1px;
-
-header {
-  background-color: white;
-} */
-
-.keen_logo img {
+.keen_logo {
   height: auto;
   width: 100%;
-  margin-left: 19%;
-  padding-top: 1%;
 }
-@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
-.navigation a {
-  font-family: "Open Sans", sans-serif !important;
-  color: black !important;
-  size: 20px !important;
-  display: flex !important;
-  justify-content: space-around !important;
-  list-style: none !important;
-  /*   font-weight: bold !important;
- */
-}
+
 .navigation {
-  margin-left: 29%;
-  margin-top: 1%;
+  margin-top: 3%;
+}
+
+.navigation a {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  justify-content: right;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.navigation a:hover {
+  font-family: "Open Sans", sans-serif;
+  color: #d3b28b;
+  justify-content: right;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
 }
 
 @media screen and (max-width: 640px) {
@@ -85,6 +64,7 @@ header {
     vertical-align: 100%;
   }
 }
+
 /* FOOTER */
 
 h4 {
