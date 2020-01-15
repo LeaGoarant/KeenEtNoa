@@ -68,13 +68,13 @@
 
     <div id="box">
         <br/>
-        <h2 style="color: #f4f4f2;">DÉCOUVREZ LA BOX VEGAN BY KEENETNOA</h2>
+        <h2 style="color: #67615a;">DÉCOUVREZ LA BOX VEGAN BY KEENETNOA</h2>
         <br/>
-        <p style="margin-right: 20%; margin-left: 20%; font-size: 20px; color: #f4f4f2;">
+        <p style="margin-right: 20%; margin-left: 20%; font-size: 20px; color: #67615a;">
             <strong>On vous y fait découvrir 13 gourmandises vegan : </strong><strong>boissons, snacks sucrés ou salés, épicerie originale… 
             De quoi satisfaire vos papilles tous les mois.</strong>
         </p>
-        <p style="margin-right: 20%; margin-left: 20%; font-size: 20px; color: #f4f4f2;">
+        <p style="margin-right: 20%; margin-left: 20%; font-size: 20px; color: #67615a;">
             <strong>En plus la livraison est offerte alors pourquoi se priver ?</strong>
         </p>
         <br/>
