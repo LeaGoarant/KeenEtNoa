@@ -179,3 +179,33 @@ th, td {
 tr {
   border-bottom: 2px dotted #94b25f;
 }
+
+/* CONTACT */
+
+.card {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.background {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #dce4cb;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+}
+
+.fa-facebook-f, .fa-instagram {
+  color: #d3b28b;
+  font-size: 30px;
+  margin-right: 5%;
+  justify-content: center;
+}
+
+.img-contact {
+  max-width: 45%;
+  margin-bottom: 5%;
+}
