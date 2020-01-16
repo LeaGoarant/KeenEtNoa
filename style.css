@@ -176,7 +176,7 @@ th, td {
   width: 30px;
 }
 
-tr {
+.home-table {
   border-bottom: 2px dotted #94b25f;
 }
 
@@ -244,5 +244,36 @@ tr {
 }
 
 .background-secondary {
-  background: linear-gradient(white 30%, #f4f4f2 30% 70%);
+  background: linear-gradient(white 10%, #f4f4f2 10% 90%);
+}
+
+.discovery_table, .regular_table, .premium_table {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.discovery_table {
+  margin-left: 5%;
+}
+
+.premium_table {
+  margin-right: 5%;
+}
+
+tr {
+  border: 1px solid lightgrey;
+  height: 60px;
+}
+
+td, th {
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #94b25f;
+  border-radius: 0%;
+  border-style: none;
+  width: 50%;
 }

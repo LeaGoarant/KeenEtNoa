@@ -13,8 +13,8 @@
         <div class="row text-center">
             <div class="col-3 box_wrapper">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/box.png" class="img_box"/>
-                <p class="text-box">C'est une box mensuelle avec 13 produits vegans, sélectionnés par nos soins. 
-                    Vous pourrez y trouver quelques produits exculsifs à la box ou en avant-première ! 
+                <p class="text-box">13 produits vegans par mois, sélectionnés par nos soins. 
+                    Vous pourrez y trouver quelques produits exclusifs ou en avant-première ! 
                 </p>
             </div>
 
@@ -46,10 +46,95 @@
 
                 <div class="row">
                     <div class="col-4">
+                        <table class="discovery_table">
+                            <tr>
+                                <th class="font-styling">Discovery</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h4>29€</h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Sans engagement</td>
+                            </tr>
+                            <tr>
+                                <td>Recevez 1 box</td>
+                            </tr>
+                            <tr>
+                                <td>La box Discovery est parfaite pour les petits curieux ou les amateurs de 
+                                    surprise ou encore en cadeau. Vous n’allez plus vous en passer !</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button type="button" class="btn btn-primary">Je m'abonne</button>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
+
                     <div class="col-4">
+                        <table class="regular_table">
+                            <tr>
+                                <th class="font-styling">Regular</th>
+                            </tr>
+                            <tr>
+                            <td>
+                                <h4>26€</h4>
+                            </td>
+                            </tr>
+                            <tr>
+                                <td>Engagement sur trois mois (avec un prélèvement en une seule fois de 78 €)</td>
+                            </tr>
+                            <tr>
+                                <td>Recevez 3 box</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #94b25f;">Economisez 30€</td>
+                            </tr>
+                            <tr>
+                                <td>Avec la Regular, c’est comme fêter son anniversaire pendant 3 mois ! 
+                                    L’ensemble des produits est renouvelé chaque mois pour un maximum de gourmandise.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button type="button" class="btn btn-primary">Je m'abonne</button>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
+
                     <div class="col-4">
+                        <table class="premium_table">
+                            <tr>
+                                <th class="font-styling">Premium</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h4>23€</h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Engagement sur 6 mois (Avec un prélèvement en une seule fois de 138€)</td>
+                            </tr>
+                            <tr>
+                                <td>Recevez 6 box</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #94b25f;">Economisez 60€</td>
+                            </tr>
+                            <tr>
+                                <td>Pour les adeptes de la « healthy food » et pour un maximum de confort, commandez 
+                                    la box Premium. Craquez et faites vous plaisir sans culpabiliser!
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button type="button" class="btn btn-primary">Je m'abonne</button>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
