@@ -61,6 +61,7 @@
                             <tr>
                                 <td>Recevez 1 box</td>
                             </tr>
+                            <tr></tr>
                             <tr>
                                 <td>La box Discovery est parfaite pour les petits curieux ou les amateurs de 
                                     surprise ou encore en cadeau. Vous n’allez plus vous en passer !</td>

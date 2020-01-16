@@ -72,6 +72,7 @@ class PageTemplater {
 			'contact-template.php' => 'Contact',
 			'box-template.php' => 'Box',
 			'legalmentions-template.php' => 'Legal Mentions',
+			'salescondition-template.php' => 'Sales Conditions',
 		);
 
 	}
