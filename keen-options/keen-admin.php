@@ -27,6 +27,7 @@ function misha_image_uploader_field($name, $value = '')
     $image_size = 'full'; // it would be better to use thumbnail size here (150x150 or so)
     $display = 'none'; // display state ot the "Remove image" button
 
+
     if ($image_attributes = wp_get_attachment_image_src($value, $image_size)) {
 
         // $image_attributes[0] - image URL
@@ -36,13 +37,21 @@ function misha_image_uploader_field($name, $value = '')
         $image = '"><img src="' . $image_attributes[0] . '" style="max-width:95%;display:block;" />';
         $display = 'inline-block';
     }
-
+    $image_attributes = wp_get_attachment_image_src( $attachment_id = 8 );
+    if ( $image_attributes ) : ?>
+        <img src="<?php echo $image_attributes[0]; ?>" width="<?php echo $image_attributes[1]; ?>" height="<?php echo $image_attributes[2]; ?>" />
+    <?php endif; ?>
+    <?php
     return '
 	<div>
         <a href="#" class="misha_upload_image_button' . $image . '</a>
 		<input type="hidden" name="' . $name . '" id="' . $name . '" value="' . esc_attr($value) . '" />
-		<a href="#" class="misha_remove_image_button" style="display:inline-block;display:' . $display . '">Remove image</a>
-	</div>';
+        <a href="#" class="misha_remove_image_button" style="display:inline-block;display:' . $display . '">Remove image</a>
+        
+
+    </div>';
+    
+
 }
 
 add_action('admin_menu', 'misha_add_options_page');
@@ -75,5 +84,6 @@ function misha_print_options_page()
         . '<p class="submit">
 		<input name="save" type="submit" class="button-primary" value="Save changes" />
 		<input type="hidden" name="action" value="save" />
-		</p></form></div>';
+        </p></form></div>';
+
 }

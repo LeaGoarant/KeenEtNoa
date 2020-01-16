@@ -25,7 +25,11 @@
 
     <header id="masthead" class="site-header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="<?php bloginfo('url') ?>"><?php bloginfo('name') ?></a>
+            <a class="navbar-brand" href="<?php bloginfo('url') ?>">
+                    <a href="<?php the_permalink() ?>" rel="bookmark">
+                        <img class="thumb" src="<?php echo esc_url(get_post_meta(get_the_ID(), '_cmb_portfolio_image_one', true)); ?>" alt="<?php the_title_attribute(); ?>" />
+                    </a>
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -54,7 +58,7 @@
                         </div>
                     </form>
                 </div>
-            
+
             </div>
         </nav>
 
