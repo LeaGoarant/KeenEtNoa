@@ -71,6 +71,7 @@ class PageTemplater {
 			'frontpage-template.php' => 'Front Page',
 			'contact-template.php' => 'Contact',
 			'box-template.php' => 'Box',
+			'legalmentions-template.php' => 'Legal Mentions',
 		);
 
 	}
