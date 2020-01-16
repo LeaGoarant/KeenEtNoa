@@ -209,3 +209,40 @@ tr {
   max-width: 45%;
   margin-bottom: 5%;
 }
+
+/* BOX */
+
+.box_wrapper, .computer_wrapper, .basket_wrapper, .truck_wrapper {
+  cursor: pointer;
+}
+
+.text-box, .text-computer, .text-basket, .text-truck {
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 5%;
+  visibility: hidden;
+}
+
+.box_wrapper:hover .text-box, .computer_wrapper:hover .text-computer, .basket_wrapper:hover .text-basket, .truck_wrapper:hover .text-truck {
+  visibility: visible;
+}
+
+.box_wrapper:hover .img_box, .computer_wrapper:hover .img_computer, .basket_wrapper:hover .img_basket, .truck_wrapper:hover .img_truck {
+  width: 25%;
+}
+
+.box_wrapper:hover, .computer_wrapper:hover, .basket_wrapper:hover, .truck_wrapper:hover {
+  background-color: #f4f4f2;
+  border-radius: 10px;
+}
+
+.sub_wrapper {
+  margin-left: 8%;
+  margin-right: 8%;
+  background-color:#ebddcc;
+  border-radius: 10px;
+}
+
+.background-secondary {
+  background: linear-gradient(white 30%, #f4f4f2 30% 70%);
+}
