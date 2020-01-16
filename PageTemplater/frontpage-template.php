@@ -24,39 +24,39 @@
         <div class="col-4"></div>
         <div class="col-6">
             <table>
-                <tr>
+                <tr class="home-table">
                     <th></th>
                     <th class="font-styling">Tous nos produits respectent au moins une de ces caractéristiques :</th>
                 </tr>
-                <tr>
+                <tr class="home-table">
                     <td><i class="fas fa-leaf" style="color:#94b25f;"></i></td>
                     <td>Vegan</td>
                 </tr>
-                <tr>
+                <tr class="home-table">
                     <td><i class="fas fa-leaf" style="color:#94b25f;"></i></td>
                     <td>Sans gras trans / sirop à taux de glucose élevé</td>
                 </tr>
-                <tr>
+                <tr class="home-table">
                     <td><i class="fas fa-leaf" style="color:#94b25f;"></i></td>
                     <td>Pas de substances cancérigènes</td>
                 </tr>
-                <tr>
+                <tr class="home-table">
                     <td><i class="fas fa-leaf" style="color:#94b25f;"></i></td>
                     <td>Aucun arôme ou colorant artificiel</td>
                 </tr>
-                <tr>
+                <tr class="home-table">
                     <td><i class="fas fa-leaf" style="color:#94b25f;"></i></td>
                     <td>Sans lactose</td>
                 </tr>
-                <tr>
+                <tr class="home-table">
                     <td><i class="fas fa-leaf" style="color:#94b25f;"></i></td>
                     <td>Sans OGM</td>
                 </tr>
-                <tr>
+                <tr class="home-table">
                     <td><i class="fas fa-leaf" style="color:#94b25f;"></i></td>
                     <td>100% naturel</td>
                 </tr>
-                <tr>
+                <tr class="home-table">
                     <td><i class="fas fa-leaf" style="color:#94b25f;"></i></td>
                     <td>Sans sucres ajoutés</td>
                 </tr>

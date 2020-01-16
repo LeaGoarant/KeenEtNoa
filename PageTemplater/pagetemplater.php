@@ -70,6 +70,7 @@ class PageTemplater {
 		$this->templates = array(
 			'frontpage-template.php' => 'Front Page',
 			'contact-template.php' => 'Contact',
+			'box-template.php' => 'Box',
 		);
 
 	}
