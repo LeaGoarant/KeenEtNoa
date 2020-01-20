@@ -1,5 +1,10 @@
 <?php
 
+function customtheme_add_woocommerce_support()
+ {
+add_theme_support( 'woocommerce' );
+}
+add_action( 'after_setup_theme', 'customtheme_add_woocommerce_support' );
 
 /* require_once('keen-options/keen-options.php');
  */
@@ -22,6 +27,7 @@ function wpt_register_css()
 }
 add_action('wp_enqueue_scripts', 'wpt_register_css');
 
+
 function keenetnoa_scripts()
 {
 
@@ -43,11 +49,12 @@ add_action('wp_enqueue_scripts', 'keenetnoa_scripts');
 
 
 /* Ajout des polices googles */
-function wpb_add_google_fonts() {
-	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans&display=swap', false );
-	}
-	
-	add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
+function wpb_add_google_fonts()
+{
+	wp_enqueue_style('wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans&display=swap', false);
+}
+
+add_action('wp_enqueue_scripts', 'wpb_add_google_fonts');
 /* Ajout des titles par page */
 add_theme_support('title-tag');
 
@@ -61,7 +68,8 @@ function keenetnoa_responsive_menu()
 }
 add_action('after_setup_theme', 'keenetnoa_responsive_menu');
 
-// Page boutique 
 
-remove_action('woocommerce_before_shop_loop', 'woocommerce_result_count', 20);
-remove_action('woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30);
+function ww_ajax_variation_threshold( $default, $product ) {
+	return 2000; // increase this number if needed
+}
+add_filter( 'woocommerce_ajax_variation_threshold', 'ww_ajax_variation_threshold', 10, 2 );
