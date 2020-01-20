@@ -28,6 +28,14 @@ html {
   display: none;
 }
 
+h3 {
+  font-family: "Open Sans", sans-serif;
+  color: #67615a;
+  font-weight: bold;
+  letter-spacing: -2px;
+  font-size: 22px;
+}
+
 /*  HEADER */
 
 .keen_logo {
