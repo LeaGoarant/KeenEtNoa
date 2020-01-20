@@ -74,6 +74,7 @@ class PageTemplater {
 			'legalmentions-template.php' => 'Legal Mentions',
 			'salescondition-template.php' => 'Sales Conditions',
 			'confidentiality-template.php' => 'Confidentiality',
+			'cookies-template.php' => 'Cookies',
 		);
 
 	}
