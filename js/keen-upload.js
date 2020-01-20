@@ -2,7 +2,7 @@ jQuery(function($){
 	/*
 	 * Select/Upload image(s) event
 	 */
-	$('body').on('click', '.misha_upload_image_button', function(e){
+	$('body').on('click', '.keen_upload_image_button', function(e){
 		e.preventDefault();
  
     		var button = $(this),
@@ -37,7 +37,7 @@ jQuery(function($){
 	/*
 	 * Remove image event
 	 */
-	$('body').on('click', '.misha_remove_image_button', function(){
+	$('body').on('click', '.keen_remove_image_button', function(){
 		$(this).hide().prev().val('').prev().addClass('button').html('Upload image');
 		return false;
 	});

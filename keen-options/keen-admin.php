@@ -41,7 +41,8 @@ function keen_image_uploader_field($name, $value = '')
         }
     }
     return '
-	<div>
+    <div>
+    <h4> Logo du site </h4>
         <a href="#" class="keen_upload_image_button' . $image . ' </a>
         <input type="hidden" name="' . $name . '" id="' . $name . '" />
         <br>
@@ -60,7 +61,7 @@ function keen_add_options_page()
     if (isset($_GET['page']) && $_GET['page'] == $page_slug) {
         if (isset($_REQUEST['action']) && 'save' == $_REQUEST['action']) {
             update_option($option_name, sanitize_text_field($_REQUEST[$option_name]));
-            header('Location: ' . site_url() . '/wp-admin/options-general.php?page=' . $page_slug . '&saved=true');
+            header('Location: ' . site_url() . '/wp-admin/themes.php?page=' . $page_slug . '&saved=true');
             die;
         }
     }
