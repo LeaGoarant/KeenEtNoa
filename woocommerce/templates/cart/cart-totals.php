@@ -1,0 +1,9 @@
+drwxr-xr-x    6 4532       keeneth             9 Jan  8 10:36 .
+drwxr-xr-x    7 4532       keeneth             8 Jan 10 09:41 ..
+-rw----r--    1 4532       keeneth          7605 Jan  7 17:19 functions.php
+drwx---r-x    2 4532       keeneth             3 Dec 10 15:42 languages
+-rw-r--r--    1 4532       keeneth         60307 Sep 21 22:22 screenshot.png
+-rw----r--    1 4532       keeneth          1699 Jan  8 10:36 style.css
+drwx---r-x    2 4532       keeneth             3 Dec 10 13:44 woo-added-to-cart-notification
+drwxr-xr-x    6 4532       keeneth             6 Jan  7 15:05 woocommerce
+drwx---r-x    3 4532       keeneth             3 Dec 17 11:06 wp-admin
