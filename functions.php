@@ -60,3 +60,8 @@ function keenetnoa_responsive_menu()
 	register_nav_menu('primary-res-navigation', __('Responsive Navigation', 'keenetnoa'));
 }
 add_action('after_setup_theme', 'keenetnoa_responsive_menu');
+
+// Page boutique 
+
+remove_action('woocommerce_before_shop_loop', 'woocommerce_result_count', 20);
+remove_action('woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30);
