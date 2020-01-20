@@ -2,7 +2,7 @@ jQuery(function($){
 	/*
 	 * Select/Upload image(s) event
 	 */
-	$('body').on('click', '.keen_upload_image_button', function(e){
+	$('body').on('click', '.keen_upload_image_button', '.keen_upload_logo_button', function(e){
 		e.preventDefault();
  
     		var button = $(this),
@@ -41,5 +41,8 @@ jQuery(function($){
 		$(this).hide().prev().val('').prev().addClass('button').html('Upload image');
 		return false;
 	});
- 
+	$('body').on('click', '.keen_remove_logo_button', function(){
+		$(this).hide().prev().val('').prev().addClass('button').html('Upload logo');
+		return false;
+	});
 });
