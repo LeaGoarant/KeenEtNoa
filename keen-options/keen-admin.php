@@ -16,7 +16,9 @@ function keen_include_myuploadscript()
 add_action('admin_enqueue_scripts', 'keen_include_myuploadscript');
 
 
+
 /*
+ * Upload LOGO
  * @param string $name Name of option or name of post custom field.
  * @param string $value Optional Attachment ID
  * @return string HTML of the Upload Button
@@ -33,7 +35,7 @@ function keen_image_uploader_field($name, $value = '')
         // $image_attributes[2] - image height
 
         $image = '"><img id="' . $name . '" src="' . $image_attributes[0] . '" />';
-        $display = 'inline-block';
+        $display = 'inline';
 
         // adding image_ID to a post_meta
         if (!add_post_meta(7, '_logo', $value, true)) {
@@ -41,15 +43,26 @@ function keen_image_uploader_field($name, $value = '')
         }
     }
     return '
-    <div>
+    <div class="keen_logo_uploader">
+    <h3> Bienvenue dans l\'administration du thème Keenetnoa </h3>
+    <hr>
     <h4> Logo du site </h4>
+        <a href="#" class="keen_upload_logo_button' . $image . ' </a>
+        <input type="hidden" name="' . $name . '" id="' . $name . '" />
+
+        <a href="#" class="keen_remove_logo_button" style="display:inline-block;display:' . $display . '">Remove image</a>
+    </div>
+    <hr>
+    <div class="keen_logo_uploader">
+    <h4> Header du site </h4>
         <a href="#" class="keen_upload_image_button' . $image . ' </a>
         <input type="hidden" name="' . $name . '" id="' . $name . '" />
-        <br>
+
         <a href="#" class="keen_remove_image_button" style="display:inline-block;display:' . $display . '">Remove image</a>
     </div>
-    </hr>';
+    <hr>';
 }
+
 
 add_action('admin_menu', 'keen_add_options_page');
 
@@ -74,13 +87,14 @@ function keen_print_options_page()
     $option_name = 'header_img';
 
     if (isset($_REQUEST['saved'])) {
-        echo '<div class="updated"><p>Saved.</p></div>';
+        echo '<div class="updated"><p>Changement sauvegardé</p></div>';
     }
 
     echo '<div class="wrap"><form method="post">'
+        /* . keen_header_uploader_field($option_name, get_option($option_name)) */
         . keen_image_uploader_field($option_name, get_option($option_name))
         . '<p class="submit">
-		<input name="save" type="submit" class="button-primary" value="Save changes" />
-		<input type="hidden" name="action" value="save" />
-        </p></form></div>';
+    <input name="save" type="submit" class="button-primary" value="Enregistrer" />
+    <input type="hidden" name="action" value="save" />
+    </p></form></div>';
 }
