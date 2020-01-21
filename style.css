@@ -336,6 +336,43 @@ td, th {
 .single-product-template {
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 15%;
+  margin-top: 5%;
+  border-radius: 10px;
+  background-color: white;
+  border-style: none;
+}
+
+.related.products > h2 {
+  text-transform: uppercase;
+  color: #94b25f;
+  font-size: 25px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.wc-accordion-heading {
+  text-align: center;
+}
+
+.woocommerce div.product div.images img {
+  max-width: 500px;
+  margin-left: 5%;
+}
+
+.product-template-default.single.single-product  {
+  background: linear-gradient(#dce4cb 20%, white 20% 80%);
+}
+
+.summary.entry-summary {
+  margin-top: -50%;
+  margin-left: 50%;
+}
+
+.product_title.entry-title {
+  text-align: left;
+  color: #67615a;
+  margin-bottom: 5%;
 }
 
 /* PANEL ADMIN */
