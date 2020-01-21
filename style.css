@@ -295,6 +295,36 @@ td, th {
 
 .img_product_featured {
   width: 100%;
+  max-height: 350px;
+}
+
+.woocommerce .products ul, .woocommerce ul.products {
+ margin-left: 5%;
+ margin-right: 5%;
+}
+
+.woocommerce-Price-amount.amount {
+  font-size: 20px !important;
+  color: #94b25f;
+}
+
+.woocommerce ul.products li.product .button {
+  background-color: inherit;
+  border: none;
+  color: #94b25f;
+  margin-top: -1%;
+}
+
+.woocommerce ul.products li.product .button:hover {
+  color: #67615a;
+  text-decoration: underline;
+}
+
+.woocommerce-loop-product__title {
+  font-size: 20px !important; 
+  color: #d3b28b; 
+  text-transform: uppercase;
+  letter-spacing: -1px;
 }
 
 /* PANEL ADMIN */

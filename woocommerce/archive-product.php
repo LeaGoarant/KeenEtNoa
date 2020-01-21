@@ -29,9 +29,18 @@ get_header( 'shop' );
 do_action( 'woocommerce_before_main_content' );
 
 ?>
-<header class="woocommerce-products-header">
+<div class="woocommerce-products-header">
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
-		<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
+		<img src="<?php echo get_template_directory_uri(); ?>/img/violife.jpeg" alt="img featured shop" class="img_product_featured img-responsive"/>
+
+		<div class="row">
+			<div col="4">
+			</div>
+
+			<div col="4">
+			</div>
+		</div>
+
 	<?php endif; ?>
 
 	<?php
@@ -43,7 +52,7 @@ do_action( 'woocommerce_before_main_content' );
 	 */
 	do_action( 'woocommerce_archive_description' );
 	?>
-</header>
+</div>
 <?php
 if ( woocommerce_product_loop() ) {
 
@@ -94,12 +103,5 @@ if ( woocommerce_product_loop() ) {
  * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
  */
 do_action( 'woocommerce_after_main_content' );
-
-/**
- * Hook: woocommerce_sidebar.
- *
- * @hooked woocommerce_get_sidebar - 10
- */
-do_action( 'woocommerce_sidebar' );
 
 get_footer( 'shop' );
