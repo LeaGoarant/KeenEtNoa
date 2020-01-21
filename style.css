@@ -311,12 +311,12 @@ td, th {
 .woocommerce ul.products li.product .button {
   background-color: inherit;
   border: none;
-  color: #94b25f;
+  color: #67615a;
   margin-top: -1%;
 }
 
 .woocommerce ul.products li.product .button:hover {
-  color: #67615a;
+  color: #94b25f;
   text-decoration: underline;
 }
 
@@ -325,6 +325,17 @@ td, th {
   color: #d3b28b; 
   text-transform: uppercase;
   letter-spacing: -1px;
+}
+
+.woocommerce a.added_to_cart {
+  display: none;
+}
+
+/* PAGE PRODUIT */  
+
+.single-product-template {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /* PANEL ADMIN */
