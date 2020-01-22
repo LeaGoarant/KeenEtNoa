@@ -339,7 +339,6 @@ td, th {
   border-style: none;
   margin-left: 8%;
   margin-right: 8%;
-  margin-top: 5%;
 }
 
 #body-single-product {
@@ -363,15 +362,6 @@ td, th {
   max-width: 500px;
   margin-left: 5%;
 }
-
-.product-template-default.single.single-product  {
-  background: linear-gradient(#dce4cb 20%, white 20% 80%);
-}
-
-/* div.summary.entry-summary {
-  margin-top: -50%;
-  margin-left: 50%;
-} */
 
 .product_title.entry-title {
   text-align: left;

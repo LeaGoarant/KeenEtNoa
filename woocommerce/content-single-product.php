@@ -32,7 +32,11 @@ if ( post_password_required() ) {
 }
 ?>
 
-<div id="product-<?php the_ID(); ?>" <?php wc_product_class( '', $product ); ?>>
+<div id="product-<?php the_ID(); ?>" <?php wc_product_class( '', $product ); ?> style="background: linear-gradient(#dce4cb 20%, white 20% 80%);">
+	
+	<br/>
+	<br/>
+
 	<div class="card" id="single-product-template">
 		<div class="card-body" id="body-single-product">
 			<div class="img-single-product">
@@ -78,5 +82,22 @@ if ( post_password_required() ) {
 	do_action( 'woocommerce_after_single_product_summary' );
 	?>
 </div>
+
+<script>
+
+	function pickColor() {
+		const background = [
+			'linear-gradient(#dce4cb 20%, white 20% 80%)',
+			'linear-gradient(#ebddcc 20%, white 20% 80%)',
+		];		
+		let random_background = background[Math.floor(Math.random() * background.length)]; 
+
+		const pick = document.getElementById('product-<?php the_ID(); ?>');
+		pick.style.background = random_background;
+	}
+
+	window.addEventListener('load', pickColor, true);
+
+</script>
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>
