@@ -291,6 +291,10 @@ td, th {
   width: 50%;
 }
 
+.btn-primary:hover {
+  background-color: #dce4cb;
+}
+
 /* SHOP */
 
 .img_product_featured {
@@ -406,6 +410,55 @@ td, th {
 
 .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
   background-color: #ebddcc;
+}
+
+/* ACCOUNT */ 
+
+.woocommerce-MyAccount-navigation-link > a {
+  color: #d3b28b;
+}
+
+li.woocommerce-MyAccount-navigation-link.is-active {
+  text-decoration: underline;
+  text-decoration-color: #d3b28b;
+}
+
+.woocommerce-MyAccount-navigation {
+  margin-top: 5%;
+  margin-right: -5%;
+}
+
+.woocommerce-MyAccount-content {
+  margin-right: 5%;
+  margin-top: 3%;
+}
+
+.woocommerce-MyAccount-content p > a {
+  color: #67615a;
+}
+
+.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--downloads {
+  display: none;
+}
+
+.woocommerce-info {
+  border-top-color: #94b25f;
+}
+
+.woocommerce-info::before {
+  color: #94b25f;
+}
+
+.col-1 {
+  max-width: 100% !important;
+}
+
+.col-2 {
+  max-width: 100% !important;
+}
+
+.edit {
+  color: #67615a;
 }
 
 /* PANEL ADMIN */
