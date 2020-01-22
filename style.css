@@ -385,6 +385,20 @@ td, th {
   margin-right: 5%;
 }
 
+/* PANIER */
+
+.product-name > a {
+  color: #67615a;
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+  background-color: #d3b28b;
+}
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+  background-color: #ebddcc;
+}
+
 /* PANEL ADMIN */
 
 .keen_logo_uploader{

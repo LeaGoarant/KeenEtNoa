@@ -31,7 +31,7 @@ if (strlen($short_description) > 800) {
 
     //if the string doesn't contain any space then it will cut without word basis.
     $short_description = $endPoint? substr($stringCut, 0, $endPoint) : substr($stringCut, 0);
-    $string = '... <a style="color: #d3b28b;"  href="/this/story">Lire la suite</a>';
+    $string = '... <a style="color: #d3b28b;" href="/this/story">Lire la suite</a>';
 };
 
 if ( ! $short_description ) {
