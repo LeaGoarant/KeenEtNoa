@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Theme Name: Keenetnoa
 Theme URI: keenetnoa.fr
@@ -7,6 +8,7 @@ Description: vegan ecommerce theme adapted for the website Keenetnoa.fr
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: keenetnoa
+Version: 1.1.2
 Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
@@ -28,115 +30,378 @@ html {
   display: none;
 }
 
+h3 {
+  font-family: "Open Sans", sans-serif;
+  color: #67615a;
+  font-weight: bold;
+  letter-spacing: -2px;
+  font-size: 22px;
+}
+
 /*  HEADER */
 
-/* NAVIGATION BAR*/
-
-header {
-  background-color: white;
-}
-
-/* .keen_logo {
-  display: inline-block;
-  vertical-align: middle;
-  width: 7%;
-}
-
-.keen_logo img {
+.keen_logo {
   height: auto;
   width: 100%;
-  margin-left: 19%;
-} */
+}
 
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
 
+.nav-link {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-top: 3%;
+}
+
+.nav-link:hover {
+  font-family: "Open Sans", sans-serif;
+  color: #d3b28b;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-top: 3%;
+}
+
+@media screen and (max-width: 640px) {
+  .nav-link {
+    vertical-align: 100%;
+  }
+}
 
 /* FOOTER */
 
 h4 {
-    color: #94b25f;
+  color: #94b25f;
+  font-style: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.blog-footer {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.logo-keen {
+  max-width: 70%;
+  margin-left: 5%;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 2%;
+}
+
+.v1 {
+  position: absolute;
+  border-left: 2px dotted #94b25f;
+  height: 250px;
+}
+
+/* HOMEPAGE */
+
+.home-page {
+  background-image: url("https://image.noelshack.com/fichiers/2020/03/1/1578913555-imagekeen.jpg");
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: black;
+  font-style: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -2px;
+  background-color: white;
+  margin-top: 25%;
+  text-align: center;
+}
+
+.homebutton {
+  border-style: none;
+  border-radius: 50%;
+  color: lightgrey;
+  height: 50px;
+  width: 50px;
+  margin-left: 50%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+#text-home {
+  background-color: #f4f4f2;
+}
+
+h2 {
+  margin-left: 5%;
+  font-style: "Open Sans", sans-serif;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+
+.vegan {
+  max-width: 70%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+}
+
+#box {
+    background-color: #dce4cb;
+}
+
+.img-food {
+  text-align: center;
+}
+
+.img-box {
+  margin-bottom: 5%;
+}
+
+.font-styling {
+    color: black;
     font-style: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: -1px;
 }
 
-.blog-footer {
-    margin-top: 5%;
-    margin-bottom: 5%;
+table {
+  margin-bottom: 5%;
 }
 
-.logo-keen {
-    max-width: 70%;
-    margin-left: 5%;
+th, td {
+  height: 50px;
 }
 
-li {
-    list-style-type: none;
-    margin-bottom: 2%;
+.fa-leaf {
+  width: 30px;
 }
 
-.v1 {
-    position: absolute;
-    border-left: 2px dotted #94b25f;
-    height: 250px;
+.home-table {
+  border-bottom: 2px dotted #94b25f;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  border-top: 0px solid;
 }
 
-/* HOMEPAGE */
+/* CONTACT */
 
-.home-page {
-    background-image: url('https://image.noelshack.com/fichiers/2020/03/1/1578913555-imagekeen.jpg');
-    width: 100%;
-    height: 100%;
+#contact-card {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: white;
+  border-radius: 10px;
 }
 
-h1 { 
-    color: black;
-    font-style: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: -2px;
-    background-color: white;
-    margin-top: 30%;
-    text-align: center;
+.background {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #dce4cb;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
 }
 
-.homebutton {
-    border-style: none;
-    border-radius: 50%;
-    color: lightgrey;
-    height: 50px;
-    width: 50px;
-    margin-left: 50%;
-    margin-top: 10%;
-    margin-bottom: 5%;
+.fa-facebook-f, .fa-instagram {
+  color: #d3b28b;
+  font-size: 30px;
+  margin-right: 5%;
+  justify-content: center;
 }
 
-#text-home {
-    background-color: #f4f4f2;
+.img-contact {
+  max-width: 45%;
+  margin-bottom: 5%;
 }
 
-h2{
-    margin-left: 5%;
-    font-style: 'Open Sans', sans-serif;
-    font-weight: bold;
-    letter-spacing: -2px;
+/* BOX */
+
+.box_wrapper, .computer_wrapper, .basket_wrapper, .truck_wrapper {
+  cursor: pointer;
 }
 
-.vegan {
-    max-width: 70%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 10%;
+.text-box, .text-computer, .text-basket, .text-truck {
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 5%;
+  visibility: hidden;
 }
 
-#box {
-    background-color: #94b25f;
+.box_wrapper:hover .text-box, .computer_wrapper:hover .text-computer, .basket_wrapper:hover .text-basket, .truck_wrapper:hover .text-truck {
+  visibility: visible;
 }
 
-.img-food {
-    text-align: center;
+.box_wrapper:hover .img_box, .computer_wrapper:hover .img_computer, .basket_wrapper:hover .img_basket, .truck_wrapper:hover .img_truck {
+  width: 25%;
 }
 
-.img-box {
-    margin-bottom: 5%;
+.box_wrapper:hover, .computer_wrapper:hover, .basket_wrapper:hover, .truck_wrapper:hover {
+  background-color: #f4f4f2;
+  border-radius: 10px;
+}
+
+.sub_wrapper {
+  margin-left: 8%;
+  margin-right: 8%;
+  background-color:#ebddcc;
+  border-radius: 10px;
+}
+
+.background-secondary {
+  background: linear-gradient(white 10%, #f4f4f2 10% 90%);
+}
+
+.discovery_table, .regular_table, .premium_table {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.discovery_table {
+  margin-left: 5%;
+}
+
+.premium_table {
+  margin-right: 5%;
+}
+
+tr {
+  border: 1px solid lightgrey;
+  height: 60px;
+}
+
+td, th {
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #94b25f;
+  border-radius: 0%;
+  border-style: none;
+  width: 50%;
+}
+
+/* SHOP */
+
+.img_product_featured {
+  width: 100%;
+  max-height: 350px;
+}
+
+.woocommerce .products ul, .woocommerce ul.products {
+ margin-left: 5%;
+ margin-right: 5%;
+}
+
+.woocommerce-Price-amount.amount {
+  font-size: 20px !important;
+  color: #94b25f;
+}
+
+.woocommerce ul.products li.product .button {
+  background-color: inherit;
+  border: none;
+  color: #67615a;
+  margin-top: -1%;
+}
+
+.woocommerce ul.products li.product .button:hover {
+  color: #94b25f;
+  text-decoration: underline;
+}
+
+.woocommerce-loop-product__title {
+  font-size: 20px !important; 
+  color: #d3b28b; 
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.woocommerce a.added_to_cart {
+  display: none;
+}
+
+/* PAGE PRODUIT */  
+
+#single-product-template {
+  border-radius: 10px;
+  background-color: white;
+  border-style: none;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+#body-single-product {
+  margin-top: 3%;
+}
+
+.related.products > h2 {
+  text-transform: uppercase;
+  color: #94b25f;
+  font-size: 25px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.wc-accordion-group {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.woocommerce div.product div.images img {
+  max-width: 500px;
+  margin-left: 5%;
+}
+
+.product_title.entry-title {
+  text-align: left;
+  color: #67615a;
+  margin-bottom: 5%;
+}
+
+.woocommerce div.product form.cart .button {
+  background-color: #d3b28b;
+}
+
+.woocommerce div.product form.cart .button:hover {
+  background-color: #ebddcc;
+}
+
+.price {
+  margin-top: 10%;
+}
+
+.woocommerce-product-details__short-description {
+  margin-right: 5%;
+}
+
+/* PANIER */
+
+.product-name > a {
+  color: #67615a;
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+  background-color: #d3b28b;
+}
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+  background-color: #ebddcc;
+}
+
+/* PANEL ADMIN */
+
+.keen_logo_uploader{
+justify-content: center;
+margin-left: 5%;
 }

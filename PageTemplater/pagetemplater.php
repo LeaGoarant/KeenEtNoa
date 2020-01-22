@@ -69,6 +69,12 @@ class PageTemplater {
 		// Add your templates to this array.
 		$this->templates = array(
 			'frontpage-template.php' => 'Front Page',
+			'contact-template.php' => 'Contact',
+			'box-template.php' => 'Box',
+			'legalmentions-template.php' => 'Legal Mentions',
+			'salescondition-template.php' => 'Sales Conditions',
+			'confidentiality-template.php' => 'Confidentiality',
+			'cookies-template.php' => 'Cookies',
 		);
 
 	}

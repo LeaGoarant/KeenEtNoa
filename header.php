@@ -25,7 +25,16 @@
 
     <header id="masthead" class="site-header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="<?php bloginfo('url') ?>"><?php bloginfo('name') ?></a>
+            <?php
+            $meta = get_post_meta(7, '_logo');
+            $image_attributes = wp_get_attachment_image_src( $attachment_id = $meta[0]);
+            
+            if ( $image_attributes ) : ?>
+             <a class="navbar-brand" href="<?php bloginfo('url') ?>">
+                <a href="<?php bloginfo('url') ?>" rel="bookmark">
+                <img class="keen_logo img-responsive" src="<?php echo $image_attributes[0]; ?>"/>
+                </a>
+            <?php endif; ?>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -43,10 +52,18 @@
                     )
                 );
                 ?>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+
+                <button class="btn btn-outline" type="submit" id="button-addon2" data-toggle="collapse" data-target="#searchbar">
+                    <i class="fas fa-search"></i>
+                </button>
+                <div class="collapse" id="searchbar">
+                    <form class="form-inline ml-auto">
+                        <div class="md-form my-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Search">
+                        </div>
+                    </form>
+                </div>
+
             </div>
         </nav>
 
