@@ -9,7 +9,7 @@
 
 <div class="background">
     <br/>
-    <div class="card">
+    <div class="card" id="contact-card">
         <div class= "card-body text-center">
             <img src="https://image.noelshack.com/fichiers/2020/03/3/1579100929-contact-small-1-1024x1024.png" alt="contact" class="img-contact">
             <h4 style="color: #d3b28b;">Contact</h4>
@@ -20,7 +20,7 @@
         </div>
     </div>
     <br/>
-    <div class="card">
+    <div class="card" id="contact-card">
         <div class= "card-body text-center">
             <a href="https://www.facebook.com/EpicerieVegan/" onclick="window.open(this.href); return false;">
                 <i class="fab fa-facebook-f"></i>

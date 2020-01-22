@@ -15,7 +15,6 @@
                 <li><a>Boutique</a></li>
                 <li><a>Mon compte</a></li>
                 <li><a>Panier</a></li>
-                <li><a>Validation de la commande</a></li>
                 <li><a>Contact</a></li>
             </ul>
         </div>

@@ -68,8 +68,20 @@ function keenetnoa_responsive_menu()
 }
 add_action('after_setup_theme', 'keenetnoa_responsive_menu');
 
+// Woocommerce
 
 function ww_ajax_variation_threshold( $default, $product ) {
 	return 2000; // increase this number if needed
 }
 add_filter( 'woocommerce_ajax_variation_threshold', 'ww_ajax_variation_threshold', 10, 2 );
+
+// Page produits 
+
+remove_action('woocommerce_before_main_content', 'woocommerce_breadcrumb', 20);
+
+remove_action('woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30);
+remove_action('woocommerce_before_shop_loop', 'woocommerce_result_count', 20);
+
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 10);
+add_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 25);
