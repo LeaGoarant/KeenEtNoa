@@ -86,3 +86,11 @@ remove_action('woocommerce_before_shop_loop', 'woocommerce_result_count', 20);
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 10);
 add_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 25);
+
+add_filter( 'wc_add_to_cart_message_html', 'add_continue_shopping_button', 10, 2);
+function add_continue_shopping_button( $message, $products ){
+
+		$message .= sprintf( '<a href="%s" class="button wc-forward" style="">%s</a>', esc_url( wc_get_page_permalink( 'shop' ) ), esc_html__( 'Continue Shopping', 'woocommerce' ) );
+
+	return $message;
+}
