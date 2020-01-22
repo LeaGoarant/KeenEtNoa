@@ -12,6 +12,7 @@ add_action( 'after_setup_theme', 'customtheme_add_woocommerce_support' );
 require_once('keen-options/keen-admin.php');
 require_once('PageTemplater/pagetemplater.php');
 require_once('wp-bootstrap-navwalker.php');
+require_once('keen-options/keen-panel.php');
 
 /* file d'attente des scripts et des styles*/
 

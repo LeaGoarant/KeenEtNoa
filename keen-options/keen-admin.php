@@ -47,12 +47,14 @@ function keen_image_uploader_field($name, $value = '')
     <h3> Bienvenue dans l\'administration du thème Keenetnoa </h3>
     <hr>
     <h4> Logo du site </h4>
-        <a href="#" class="keen_upload_logo_button' . $image . ' </a>
+        <a href="#" class="keen_upload_image_button' . $image . ' </a>
         <input type="hidden" name="' . $name . '" id="' . $name . '" />
 
-        <a href="#" class="keen_remove_logo_button" style="display:inline-block;display:' . $display . '">Remove image</a>
+        <a href="#" class="keen_remove_image_button" style="display:inline-block;display:' . $display . '">Remove image</a>
     </div>
+    
     <hr>
+
     <div class="keen_logo_uploader">
     <h4> Header du site </h4>
         <a href="#" class="keen_upload_image_button' . $image . ' </a>
