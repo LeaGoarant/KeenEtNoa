@@ -385,6 +385,15 @@ td, th {
   margin-right: 5%;
 }
 
+.button.wc-backward, .woocommerce a.button {
+  background-color: transparent;
+}
+
+.button.wc-backward:hover, .woocommerce a.button:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 /* PANIER */
 
 .product-name > a {
