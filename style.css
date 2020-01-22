@@ -369,6 +369,22 @@ td, th {
   margin-bottom: 5%;
 }
 
+.woocommerce div.product form.cart .button {
+  background-color: #d3b28b;
+}
+
+.woocommerce div.product form.cart .button:hover {
+  background-color: #ebddcc;
+}
+
+.price {
+  margin-top: 10%;
+}
+
+.woocommerce-product-details__short-description {
+  margin-right: 5%;
+}
+
 /* PANEL ADMIN */
 
 .keen_logo_uploader{
