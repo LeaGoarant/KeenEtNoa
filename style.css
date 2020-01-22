@@ -195,7 +195,7 @@ th, td {
 
 /* CONTACT */
 
-.card {
+#contact-card {
   margin-left: 20%;
   margin-right: 20%;
   background-color: white;
@@ -333,14 +333,17 @@ td, th {
 
 /* PAGE PRODUIT */  
 
-.single-product-template {
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 15%;
-  margin-top: 5%;
+#single-product-template {
   border-radius: 10px;
   background-color: white;
   border-style: none;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 5%;
+}
+
+#body-single-product {
+  margin-top: 3%;
 }
 
 .related.products > h2 {
@@ -351,8 +354,9 @@ td, th {
   margin-bottom: 5%;
 }
 
-.wc-accordion-heading {
+.wc-accordion-group {
   text-align: center;
+  margin-top: 5%;
 }
 
 .woocommerce div.product div.images img {
@@ -364,10 +368,10 @@ td, th {
   background: linear-gradient(#dce4cb 20%, white 20% 80%);
 }
 
-.summary.entry-summary {
+/* div.summary.entry-summary {
   margin-top: -50%;
   margin-left: 50%;
-}
+} */
 
 .product_title.entry-title {
   text-align: left;
