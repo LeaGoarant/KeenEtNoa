@@ -461,6 +461,16 @@ li.woocommerce-MyAccount-navigation-link.is-active {
   color: #67615a;
 }
 
+.woocommerce form .form-row .required {
+  color: #94b25f;
+}
+
+.woocommerce-Input.woocommerce-Input--text.input-text, .woocommerce-Input.woocommerce-Input--email.input-text,
+.woocommerce-Input.woocommerce-Input--password.input-text, .input-text {
+  border-radius: 10px;
+  border-style: solid;
+}
+
 /* PANEL ADMIN */
 
 .keen_logo_uploader{
