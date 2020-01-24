@@ -471,6 +471,47 @@ li.woocommerce-MyAccount-navigation-link.is-active {
   border-style: solid;
 }
 
+.woocommerce .woocommerce-form-login .woocommerce-form-login__submit {
+  margin-left: 5%;
+}
+
+p.woocommerce-LostPassword.lost_password > a {
+  color: #94b25f;
+}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+  margin-left: 5%;
+}
+
+.connexion-title {
+  margin-top: 3%;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  color: #67615a;
+}
+
+/* CHECKOUT */
+
+.woocommerce-privacy-policy-link, .woocommerce-terms-and-conditions-link, div.woocommerce-info > a {
+  color: #67615a;
+}
+
+#order_review_heading, .woocommerce-billing-fields > h3, .woocommerce-additional-fields > h3 {
+  margin-left: 2%;
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+
+.checkout-card {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.woocommerce-input-wrapper {
+  width: 100%;
+  margin-right: 10%;
+}
+
 /* PANEL ADMIN */
 
 .keen_logo_uploader{
