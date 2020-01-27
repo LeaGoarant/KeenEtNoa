@@ -45,7 +45,7 @@
                 </h2>
 
                 <div class="row">
-                    <div class="col-md-4 col-sm-12">
+                    <div class="col-md-12 col-sm-12 col-lg-4">
                         <table class="discovery_table">
                             <tr>
                                 <th class="font-styling">Discovery</th>
@@ -74,7 +74,7 @@
                         </table>
                     </div>
 
-                    <div class="col-md-4 col-sm-12">
+                    <div class="col-md-12 col-sm-12 col-lg-4">
                         <table class="regular_table">
                             <tr>
                                 <th class="font-styling">Regular</th>
@@ -106,7 +106,7 @@
                         </table>
                     </div>
 
-                    <div class="col-md-4 col-sm-12">
+                    <div class="col-md-12 col-sm-12 col-lg-4">
                         <table class="premium_table">
                             <tr>
                                 <th class="font-styling">Premium</th>
