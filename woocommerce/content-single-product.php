@@ -33,7 +33,9 @@ if ( post_password_required() ) {
 ?>
 
 <div id="product-<?php the_ID(); ?>" <?php wc_product_class( '', $product ); ?> style="background: linear-gradient(#dce4cb 20%, white 20% 80%);">
-	
+
+    <a class="button wc-backward" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>"><?php _e( '<i class="fas fa-arrow-left"></i> Retour à la boutique', 'woocommerce' ) ?></a>
+
 	<br/>
 	<br/>
 
