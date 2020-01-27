@@ -11,26 +11,26 @@
         <h2 style="text-transform: uppercase; color:#94b25f; margin-top: 5%; margin-bottom: 5%;">La box vegan by KeenetNoa, c'est quoi ?</h2>
 
         <div class="row text-center">
-            <div class="col-3 box_wrapper">
+            <div class="col-md-3 col-sm-12 box_wrapper">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/box.png" class="img_box"/>
                 <p class="text-box">13 produits vegans par mois, sélectionnés par nos soins. 
                     Vous pourrez y trouver quelques produits exclusifs ou en avant-première ! 
                 </p>
             </div>
 
-            <div class="col-3 computer_wrapper">
+            <div class="col-md-3 col-sm-12 computer_wrapper">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/ordi.png" class="img_computer"/>
                 <p class="text-computer">Une box qui s'adapte à vos besoins ! Sans engagements, vous pouvez choisir 
                     de la commander pour 1, 3 ou 6 mois.
                 </p>
             </div>
 
-            <div class="col-3 basket_wrapper">
+            <div class="col-md-3 col-sm-12 basket_wrapper">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/panier.png" class="img_basket"/>
                 <p class="text-basket">Choisissez votre abonnement, ajoutez le au panier, on s'occupe du reste.</p>
             </div>
 
-            <div class="col-3 truck_wrapper">
+            <div class="col-md-3 col-sm-12 truck_wrapper">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/camion.png" class="img_truck"/>   
                 <p class="text-truck">En plus, la livraison est gratuite en point relais ! Alors 
                     qu'est ce que vous attendez ?</p>
@@ -45,7 +45,7 @@
                 </h2>
 
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-md-4 col-sm-12">
                         <table class="discovery_table">
                             <tr>
                                 <th class="font-styling">Discovery</th>
@@ -74,7 +74,7 @@
                         </table>
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-md-4 col-sm-12">
                         <table class="regular_table">
                             <tr>
                                 <th class="font-styling">Regular</th>
@@ -106,7 +106,7 @@
                         </table>
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-md-4 col-sm-12">
                         <table class="premium_table">
                             <tr>
                                 <th class="font-styling">Premium</th>
