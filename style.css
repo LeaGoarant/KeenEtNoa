@@ -400,7 +400,7 @@ td, th {
 
 /* PANIER */
 
-.product-name > a {
+.product-name > a, .restore-item {
   color: #67615a;
 }
 
@@ -410,6 +410,15 @@ td, th {
 
 .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
   background-color: #ebddcc;
+}
+
+.woocommerce a.remove {
+  color: #94b25f !important;
+}
+
+.woocommerce a.remove:hover {
+  color: white;
+  background-color: #94b25f;
 }
 
 /* ACCOUNT */ 
