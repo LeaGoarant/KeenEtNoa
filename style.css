@@ -95,17 +95,25 @@ h4 {
   margin-left: 5%;
 }
 
+@media (max-width: 767px){
+  .logo-keen {
+    max-width: 70% !important;
+    margin-bottom: 8%;
+  }
+}
+
 li {
   list-style-type: none;
   margin-bottom: 2%;
 }
 
-.v1 {
-  position: absolute;
-  border-left: 2px dotted #94b25f;
-  height: 250px;
+@media (min-width: 768px){
+  .v1 {
+    position: absolute;
+    border-left: 2px dotted #94b25f;
+    height: 250px;
+  }
 }
-
 /* HOMEPAGE */
 
 .home-page {
