@@ -577,55 +577,42 @@ div.woocommerce-info > a {
 
 /* CHECKOUT WOOCOMMERCE */
 
+div.woocommerce-billing-fields input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
 
-  form.woocommerce-checkout input {
-    font-size: 18px;
-    padding: 10px 10px 10px 5px;
-    display: block;
-    width: 300px;
-    border: none;
-    border-bottom: 1px solid #757575;
+div.woocommerce-shipping-fields__field-wrapper input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+.input-text {
+  border-radius: 0px !important;
+}
+
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea {
+  width: 50%;
+}
+@media screen and (max-width: 670px) {
+  .woocommerce form .form-row input.input-text,
+  .woocommerce form .form-row textarea {
+    width: 100%;
   }
+}
 
-  .input-text {
-    border-radius: 0px !important;
-  }
-
-  input:focus {
-    outline: none;
-  }
-
-  /* LABEL */
-  label {
-    color: #999;
-    font-size: 18px;
-    font-weight: normal;
-    pointer-events: none;
-    left: 5px;
-    top: 10px;
-    transition: 0.2s ease all;
-    -moz-transition: 0.2s ease all;
-    -webkit-transition: 0.2s ease all;
-  }
-
-  /* active state */
-  input:focus ~ label,
-  input:valid ~ label {
-    top: -20px;
-    font-size: 14px;
-    color: #94b25f;
-  }
-
-  /* active state */
-  input:focus ~ .bar:before,
-  input:focus ~ .bar:after {
-    width: 50%;
-  }
-
-  .form-control:focus {
-    -webkit-box-shadow: 0 8px 3px -6px #94b25f;
-    -moz-box-shadow: 0 8px 3px -6px #94b25f;
-    box-shadow: 0 8px 3px -6px #94b25f;
-    border-color: transparent;
-  }
-
+.form-control:focus {
+  -webkit-box-shadow: 0 8px 3px -6px #94b25f;
+  -moz-box-shadow: 0 8px 3px -6px #94b25f;
+  box-shadow: 0 8px 3px -6px #94b25f;
+  border-color: transparent;
+}
