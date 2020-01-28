@@ -21,8 +21,7 @@
         <br/>
         <h2 style="color:#94b25f;">NOS ENGAGEMENTS</h2>
         <div class="row">
-        <div class="col-4"></div>
-        <div class="col-lg-6 col-sm-12 col-md-6">
+        <div class="col-lg-12 col-sm-12 col-md-12">
             <table>
                 <tr class="home-table">
                     <th></th>

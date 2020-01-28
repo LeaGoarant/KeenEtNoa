@@ -228,6 +228,19 @@ h2 {
 
 table {
   margin-bottom: 5%;
+  margin-left: 23%;
+}
+
+@media (max-width: 768px) {
+  table {
+    margin-left: 7%;
+  }
+}
+
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  table {
+    margin-left: 13%;
+  }
 }
 
 th, td {
