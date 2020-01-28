@@ -53,7 +53,9 @@
                 );
                 ?>
 
-                <button class="btn btn-outline" type="submit" id="button-addon2" data-toggle="collapse" data-target="#searchbar">
+            </div>
+
+            <button class="btn btn-outline" type="submit" id="button-addon2" data-toggle="collapse" data-target="#searchbar">
                     <i class="fas fa-search"></i>
                 </button>
                 <div class="collapse" id="searchbar">
@@ -63,8 +65,6 @@
                         </div>
                     </form>
                 </div>
-
-            </div>
         </nav>
 
     </header>
