@@ -31,7 +31,7 @@
             
             if ( $image_attributes ) : ?>
              <a class="navbar-brand" href="<?php bloginfo('url') ?>">
-                <a href="<?php the_permalink() ?>" rel="bookmark">
+                <a href="<?php bloginfo('url') ?>" rel="bookmark">
                 <img class="keen_logo img-responsive" src="<?php echo $image_attributes[0]; ?>"/>
                 </a>
             <?php endif; ?>
