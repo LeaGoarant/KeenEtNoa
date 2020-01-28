@@ -94,3 +94,20 @@ function add_continue_shopping_button( $message, $products ){
 
 	return $message;
 }
+
+
+/* Page de validation de commande  */
+
+add_filter('woocommerce_checkout_fields', 'addBootstrapToCheckoutFields' );
+function addBootstrapToCheckoutFields($fields) {
+    foreach ($fields as &$fieldset) {
+        foreach ($fieldset as &$field) {
+            // if you want to add the form-group class around the label and the input
+            $field['class'][] = 'form-group '; 
+
+            // add form-control to the actual input
+            $field['input_class'][] = 'form-control inp';
+        }
+    }
+    return $fields;
+}
