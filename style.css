@@ -522,6 +522,13 @@ td, th {
   background-color: #94b25f;
 }
 
+@media (max-width: 768px){
+  .wc-proceed-to-checkout {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
+
 /* ACCOUNT */ 
 
 .woocommerce-MyAccount-navigation-link > a {
