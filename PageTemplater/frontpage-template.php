@@ -22,7 +22,7 @@
         <h2 style="color:#94b25f;">NOS ENGAGEMENTS</h2>
         <div class="row">
         <div class="col-4"></div>
-        <div class="col-6">
+        <div class="col-lg-6 col-sm-12 col-md-6">
             <table>
                 <tr class="home-table">
                     <th></th>
@@ -79,7 +79,7 @@
         </p>
         <br/>
         <div class="img-food">
-            <img class="img-box" src="https://www.slowlyveggie.fr/wp-content/uploads/sites/5/2018/01/box-vegan-11.jpg" alt ="foodbox"/>
+            <img class="img-box img-fluid" src="https://www.slowlyveggie.fr/wp-content/uploads/sites/5/2018/01/box-vegan-11.jpg" alt ="foodbox"/>
         </div>
     </div>
 
