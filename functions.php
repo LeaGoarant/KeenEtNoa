@@ -111,3 +111,8 @@ function addBootstrapToCheckoutFields($fields) {
     }
     return $fields;
 }
+
+
+/* Nav Profil Page */
+
+remove_action('woocommerce_account_navigation', 'woocommerce_account_navigation');
