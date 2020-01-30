@@ -3,11 +3,11 @@
 <footer class="blog-footer">
 
     <div class="row">
-        <div class="col-4">
+        <div class="col-md-4 col-sm-12">
             <img src="https://image.noelshack.com/fichiers/2020/03/3/1579076381-logo-original.png" alt="logo-keenetnoa" class="logo-keen"/>
         </div>
 
-        <div class="col-4">
+        <div class="col-md-4 col-sm-12">
         <span class="v1"></span>
             <ul>
                 <li><h4>Liens utiles</h4></li>
@@ -19,7 +19,7 @@
             </ul>
         </div>
 
-        <div class="col-4">
+        <div class="col-md-4 col-sm-12">
         <span class="v1"></span>
             <ul>
                 <li><h4>Légal</h4></li>
