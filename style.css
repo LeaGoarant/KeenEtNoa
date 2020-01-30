@@ -562,6 +562,27 @@ li.woocommerce-MyAccount-navigation-link.is-active {
   border-top-color: #94b25f;
 }
 
+@media (max-width: 575.98px) {
+  .woocommerce-info, .woocommerce-MyAccount-content, .woocommerce-EditAccountForm.edit-account {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .woocommerce-info, .woocommerce-MyAccount-content, .woocommerce-EditAccountForm.edit-account {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+}
+
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  .woocommerce-info, .woocommerce-MyAccount-content, .woocommerce-EditAccountForm.edit-account {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
 .woocommerce-info::before {
   color: #94b25f;
 }
