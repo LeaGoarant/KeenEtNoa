@@ -250,9 +250,9 @@ table {
   }
 }
 
-th, td {
+/* th, td {
   height: 50px;
-}
+} */
 
 .fa-leaf {
   width: 30px;
@@ -267,6 +267,11 @@ th, td {
 
 .home-table > td {
   text-align: left !important;
+  height: 50px;
+}
+
+.home-table > th {
+  height: 50px;
 }
 
 /* CONTACT */
@@ -359,7 +364,7 @@ th, td {
   margin-bottom: 10%;
 }
 
-@media (min-width: 768px){
+@media (min-width: 767.98px) and (max-width: 991.98px){
   .discovery_table {
     margin-left: 5%;
   }
@@ -564,21 +569,21 @@ li.woocommerce-MyAccount-navigation-link.is-active {
 
 @media (max-width: 575.98px) {
   .woocommerce-info, .woocommerce-MyAccount-content, .woocommerce-EditAccountForm.edit-account {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 7%;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .woocommerce-info, .woocommerce-MyAccount-content, .woocommerce-EditAccountForm.edit-account {
-    margin-left: 7%;
+    margin-left: 2%;
     margin-right: 7%;
   }
 }
 
 @media (min-width: 767.98px) and (max-width: 991.98px) {
   .woocommerce-info, .woocommerce-MyAccount-content, .woocommerce-EditAccountForm.edit-account {
-    margin-left: 5%;
+    margin-left: 2%;
     margin-right: 5%;
   }
 }
