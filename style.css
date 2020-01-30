@@ -461,6 +461,8 @@ figure img {
   background-color: #94b25f;
 }
 
+/* RESPONSIVE PANIER */
+
 /* ACCOUNT */
 
 .woocommerce-MyAccount-navigation-link > a {
@@ -573,6 +575,42 @@ div.woocommerce-info > a {
 .keen_logo_uploader {
   justify-content: center;
   margin-left: 5%;
+}
+
+.keenetnoa_admin td,
+.keenetnoa_admin th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px;
+}
+
+.keenetnoa_admin td {
+  text-align: center;
+}
+
+.keenetnoa_admin tr:nth-child(even) {
+  background-color: #eee;
+}
+
+.keenetnoa_admin th[scope="col"] {
+  background-color: #696969;
+  color: #fff;
+}
+
+.keenetnoa_admin th[scope="row"] {
+  background-color: #d7d9f2;
+}
+
+.keenetnoa_admin caption {
+  padding: 10px;
+  caption-side: bottom;
+}
+
+.keenetnoa_admin table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.8rem;
 }
 
 /* CHECKOUT WOOCOMMERCE */

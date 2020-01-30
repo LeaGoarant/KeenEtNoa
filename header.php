@@ -25,16 +25,7 @@
 
     <header id="masthead" class="site-header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <?php
-            $meta = get_post_meta(7, '_logo');
-            $image_attributes = wp_get_attachment_image_src( $attachment_id = $meta[0]);
-            
-            if ( $image_attributes ) : ?>
-             <a class="navbar-brand" href="<?php bloginfo('url') ?>">
-                <a href="<?php bloginfo('url') ?>" rel="bookmark">
-                <img class="keen_logo img-responsive" src="<?php echo $image_attributes[0]; ?>"/>
-                </a>
-            <?php endif; ?>
+            <img src="<?= get_option('logo', '');?>" class="keencustom">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
