@@ -226,11 +226,6 @@ h2 {
   }
 }
 
-table {
-  margin-bottom: 5%;
-  margin-left: 23%;
-}
-
 @media (max-width: 575.98px) {
   table {
     margin-left: 5%;
@@ -249,10 +244,6 @@ table {
     margin-left: 13%;
   }
 }
-
-/* th, td {
-  height: 50px;
-} */
 
 .fa-leaf {
   width: 30px;
@@ -381,9 +372,17 @@ table {
   }
 }
 
-tr {
+.discovery_table tr, .regular_table tr, .premium_table tr {
   border: 1px solid lightgrey;
   height: 60px;
+}
+
+.discovery_table {
+  margin-left: 10%;
+}
+
+.premium_table {
+  margin-right: 10%;
 }
 
 td, th {

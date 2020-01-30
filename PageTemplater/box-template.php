@@ -61,7 +61,6 @@
                             <tr>
                                 <td>Recevez 1 box</td>
                             </tr>
-                            <tr></tr>
                             <tr>
                                 <td>La box Discovery est parfaite pour les petits curieux ou les amateurs de 
                                     surprise ou encore en cadeau. Vous n’allez plus vous en passer !</td>
@@ -91,9 +90,6 @@
                                 <td>Recevez 3 box</td>
                             </tr>
                             <tr>
-                                <td style="color: #94b25f;">Economisez 30€</td>
-                            </tr>
-                            <tr>
                                 <td>Avec la Regular, c’est comme fêter son anniversaire pendant 3 mois ! 
                                     L’ensemble des produits est renouvelé chaque mois pour un maximum de gourmandise.
                                 </td>
@@ -121,9 +117,6 @@
                             </tr>
                             <tr>
                                 <td>Recevez 6 box</td>
-                            </tr>
-                            <tr>
-                                <td style="color: #94b25f;">Economisez 60€</td>
                             </tr>
                             <tr>
                                 <td>Pour les adeptes de la « healthy food » et pour un maximum de confort, commandez 
