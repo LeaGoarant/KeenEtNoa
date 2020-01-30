@@ -414,13 +414,14 @@ h2 {
   height: 60px;
 }
 
+@media (min-width: 991.98px){
+  .discovery_table {
+    margin-left: 10%;
+  }
 
-.discovery_table {
-  margin-left: 10%;
-}
-
-.premium_table {
-  margin-right: 10%;
+  .premium_table {
+    margin-right: 10%;
+  }
 }
 
 td,
