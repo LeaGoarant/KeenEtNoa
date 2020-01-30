@@ -89,6 +89,9 @@ h4 {
   margin-top: 5%;
   margin-bottom: 5%;
 }
+.row{
+  margin-right: 0% !important;
+}
 
 .logo-keen {
   max-width: 70%;
