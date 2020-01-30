@@ -89,6 +89,9 @@ h4 {
   margin-top: 5%;
   margin-bottom: 5%;
 }
+.row{
+  margin-right: 0% !important;
+}
 
 .logo-keen {
   max-width: 70%;
@@ -155,7 +158,7 @@ h2 {
 }
 
 #box {
-    background-color: #dce4cb;
+  background-color: #dce4cb;
 }
 
 .img-food {
@@ -167,18 +170,19 @@ h2 {
 }
 
 .font-styling {
-    color: black;
-    font-style: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: -1px;
+  color: black;
+  font-style: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
 }
 
 table {
   margin-bottom: 5%;
 }
 
-th, td {
+th,
+td {
   height: 50px;
 }
 
@@ -211,7 +215,8 @@ th, td {
   border-radius: 10px;
 }
 
-.fa-facebook-f, .fa-instagram {
+.fa-facebook-f,
+.fa-instagram {
   color: #d3b28b;
   font-size: 30px;
   margin-right: 5%;
@@ -225,26 +230,41 @@ th, td {
 
 /* BOX */
 
-.box_wrapper, .computer_wrapper, .basket_wrapper, .truck_wrapper {
+.box_wrapper,
+.computer_wrapper,
+.basket_wrapper,
+.truck_wrapper {
   cursor: pointer;
 }
 
-.text-box, .text-computer, .text-basket, .text-truck {
+.text-box,
+.text-computer,
+.text-basket,
+.text-truck {
   text-align: left;
   margin-left: 5%;
   margin-top: 5%;
   visibility: hidden;
 }
 
-.box_wrapper:hover .text-box, .computer_wrapper:hover .text-computer, .basket_wrapper:hover .text-basket, .truck_wrapper:hover .text-truck {
+.box_wrapper:hover .text-box,
+.computer_wrapper:hover .text-computer,
+.basket_wrapper:hover .text-basket,
+.truck_wrapper:hover .text-truck {
   visibility: visible;
 }
 
-.box_wrapper:hover .img_box, .computer_wrapper:hover .img_computer, .basket_wrapper:hover .img_basket, .truck_wrapper:hover .img_truck {
+.box_wrapper:hover .img_box,
+.computer_wrapper:hover .img_computer,
+.basket_wrapper:hover .img_basket,
+.truck_wrapper:hover .img_truck {
   width: 25%;
 }
 
-.box_wrapper:hover, .computer_wrapper:hover, .basket_wrapper:hover, .truck_wrapper:hover {
+.box_wrapper:hover,
+.computer_wrapper:hover,
+.basket_wrapper:hover,
+.truck_wrapper:hover {
   background-color: #f4f4f2;
   border-radius: 10px;
 }
@@ -252,7 +272,7 @@ th, td {
 .sub_wrapper {
   margin-left: 8%;
   margin-right: 8%;
-  background-color:#ebddcc;
+  background-color: #ebddcc;
   border-radius: 10px;
 }
 
@@ -260,7 +280,9 @@ th, td {
   background: linear-gradient(white 10%, #f4f4f2 10% 90%);
 }
 
-.discovery_table, .regular_table, .premium_table {
+.discovery_table,
+.regular_table,
+.premium_table {
   background-color: white;
   display: flex;
   justify-content: center;
@@ -280,7 +302,8 @@ tr {
   height: 60px;
 }
 
-td, th {
+td,
+th {
   text-align: center;
 }
 
@@ -291,16 +314,31 @@ td, th {
   width: 50%;
 }
 
-/* SHOP */
-
-.img_product_featured {
-  width: 100%;
-  max-height: 350px;
+.btn-primary:hover {
+  background-color: #dce4cb;
 }
 
-.woocommerce .products ul, .woocommerce ul.products {
- margin-left: 5%;
- margin-right: 5%;
+/* SHOP */
+
+figure {
+  width: auto !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+}
+figure img {
+  display: block !important;
+  width: auto !important;
+}
+
+.change-ratio img {
+  margin: -16.25% 0 !important;
+  padding-bottom: 20%;
+}
+
+.woocommerce .products ul,
+.woocommerce ul.products {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .woocommerce-Price-amount.amount {
@@ -321,8 +359,8 @@ td, th {
 }
 
 .woocommerce-loop-product__title {
-  font-size: 20px !important; 
-  color: #d3b28b; 
+  font-size: 20px !important;
+  color: #d3b28b;
   text-transform: uppercase;
   letter-spacing: -1px;
 }
@@ -331,7 +369,7 @@ td, th {
   display: none;
 }
 
-/* PAGE PRODUIT */  
+/* PAGE PRODUIT */
 
 #single-product-template {
   border-radius: 10px;
@@ -385,23 +423,237 @@ td, th {
   margin-right: 5%;
 }
 
+.button.wc-backward,
+.woocommerce a.button {
+  background-color: transparent;
+}
+
+.button.wc-backward:hover,
+.woocommerce a.button:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 /* PANIER */
 
-.product-name > a {
+.product-name > a,
+.restore-item {
   color: #67615a;
 }
 
-.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
   background-color: #d3b28b;
 }
 
-.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover {
   background-color: #ebddcc;
+}
+
+.woocommerce a.remove {
+  color: #94b25f !important;
+}
+
+.woocommerce a.remove:hover {
+  color: white;
+  background-color: #94b25f;
+}
+
+/* RESPONSIVE PANIER */
+
+/* ACCOUNT */
+
+.woocommerce-MyAccount-navigation-link > a {
+  color: #d3b28b;
+}
+
+li.woocommerce-MyAccount-navigation-link.is-active {
+  text-decoration: underline;
+  text-decoration-color: #d3b28b;
+}
+
+.woocommerce-MyAccount-navigation {
+  margin-top: 5%;
+  margin-right: -5%;
+}
+
+.woocommerce-MyAccount-content {
+  margin-right: 5%;
+  margin-top: 3%;
+}
+
+.woocommerce-MyAccount-content p > a {
+  color: #67615a;
+}
+
+.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--downloads {
+  display: none;
+}
+
+.woocommerce-info {
+  border-top-color: #94b25f;
+}
+
+.woocommerce-info::before {
+  color: #94b25f;
+}
+
+.col-1 {
+  max-width: 100% !important;
+}
+
+.col-2 {
+  max-width: 100% !important;
+}
+
+.edit {
+  color: #67615a;
+}
+
+.woocommerce form .form-row .required {
+  color: #94b25f;
+}
+
+.woocommerce-Input.woocommerce-Input--text.input-text,
+.woocommerce-Input.woocommerce-Input--email.input-text,
+.woocommerce-Input.woocommerce-Input--password.input-text,
+.input-text {
+  border-radius: 10px;
+  border-style: solid;
+}
+
+.woocommerce .woocommerce-form-login .woocommerce-form-login__submit {
+  margin-left: 5%;
+}
+
+p.woocommerce-LostPassword.lost_password > a {
+  color: #94b25f;
+}
+
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea {
+  margin-left: 5%;
+}
+
+.connexion-title {
+  margin-top: 3%;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  color: #67615a;
+}
+
+/* CHECKOUT */
+
+.woocommerce-privacy-policy-link,
+.woocommerce-terms-and-conditions-link,
+div.woocommerce-info > a {
+  color: #94b25f;
+}
+
+#order_review_heading,
+.woocommerce-billing-fields > h3,
+.woocommerce-additional-fields > h3 {
+  margin-left: 2%;
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+
+.checkout-card {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.woocommerce-input-wrapper {
+  width: 100%;
+  margin-right: 10%;
 }
 
 /* PANEL ADMIN */
 
-.keen_logo_uploader{
-justify-content: center;
-margin-left: 5%;
+.keen_logo_uploader {
+  justify-content: center;
+  margin-left: 5%;
+}
+
+.keenetnoa_admin td,
+.keenetnoa_admin th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px;
+}
+
+.keenetnoa_admin td {
+  text-align: center;
+}
+
+.keenetnoa_admin tr:nth-child(even) {
+  background-color: #eee;
+}
+
+.keenetnoa_admin th[scope="col"] {
+  background-color: #696969;
+  color: #fff;
+}
+
+.keenetnoa_admin th[scope="row"] {
+  background-color: #d7d9f2;
+}
+
+.keenetnoa_admin caption {
+  padding: 10px;
+  caption-side: bottom;
+}
+
+.keenetnoa_admin table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+}
+
+/* CHECKOUT WOOCOMMERCE */
+
+div.woocommerce-billing-fields input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+div.woocommerce-shipping-fields__field-wrapper input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+.input-text {
+  border-radius: 0px !important;
+}
+
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea {
+  width: 50%;
+}
+@media screen and (max-width: 670px) {
+  .woocommerce form .form-row input.input-text,
+  .woocommerce form .form-row textarea {
+    width: 100%;
+  }
+}
+
+.form-control:focus {
+  -webkit-box-shadow: 0 8px 3px -6px #94b25f;
+  -moz-box-shadow: 0 8px 3px -6px #94b25f;
+  box-shadow: 0 8px 3px -6px #94b25f;
+  border-color: transparent;
 }
