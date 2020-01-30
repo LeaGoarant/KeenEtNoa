@@ -88,6 +88,7 @@ h4 {
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
 .row{
   margin-right: 0% !important;
 }
@@ -116,6 +117,7 @@ li {
     height: 250px;
   }
 }
+
 /* HOMEPAGE */
 
 .home-page {
@@ -184,8 +186,8 @@ h2 {
   margin-left: 5%;
   font-style: "Open Sans", sans-serif;
   font-weight: bold;
-/*   letter-spacing: -2px;
- */}
+  letter-spacing: -2px;
+}
 
 .vegan {
   max-width: 70%;
@@ -196,7 +198,6 @@ h2 {
 
 #box {
   background-color: #dce4cb;
-
 }
 
 @media (max-width: 768px){
@@ -246,11 +247,6 @@ h2 {
   table {
     margin-left: 13%;
   }
-  
- th,
-td {
-  height: 50px;
-  
 }
 
 .fa-leaf {
@@ -340,20 +336,18 @@ td {
   }
 }
 
-@media (min-width: 1200px) {
+.box_wrapper:hover .text-box, .computer_wrapper:hover .text-computer, .basket_wrapper:hover .text-basket, .truck_wrapper:hover .text-truck {
+  visibility: visible;
+}
 
-  .box_wrapper:hover .text-box, .computer_wrapper:hover .text-computer, .basket_wrapper:hover .text-basket, .truck_wrapper:hover .text-truck {
-    visibility: visible;
-  }
+.box_wrapper:hover .img_box, .computer_wrapper:hover .img_computer, .basket_wrapper:hover .img_basket, .truck_wrapper:hover .img_truck {
+  width: 25%;
+}
 
-  .box_wrapper:hover .img_box, .computer_wrapper:hover .img_computer, .basket_wrapper:hover .img_basket, .truck_wrapper:hover .img_truck {
-    width: 25%;
-  }
-
-  .box_wrapper:hover, .computer_wrapper:hover, .basket_wrapper:hover, .truck_wrapper:hover {
-    background-color: #f4f4f2;
-    border-radius: 10px;
-  }
+.box_wrapper:hover, .computer_wrapper:hover, .basket_wrapper:hover, .truck_wrapper:hover {
+  background-color: #f4f4f2;
+  border-radius: 10px;
+}
 
 .box_wrapper:hover .text-box,
 .computer_wrapper:hover .text-computer,
@@ -798,6 +792,7 @@ div.woocommerce-shipping-fields__field-wrapper input {
 .woocommerce form .form-row textarea {
   width: 50%;
 }
+
 @media screen and (max-width: 670px) {
   .woocommerce form .form-row input.input-text,
   .woocommerce form .form-row textarea {
