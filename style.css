@@ -56,7 +56,6 @@ h3 {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: -1px;
-  margin-top: 3%;
 }
 
 .nav-link:hover {
@@ -147,8 +146,8 @@ h2 {
   margin-left: 5%;
   font-style: "Open Sans", sans-serif;
   font-weight: bold;
-  letter-spacing: -2px;
-}
+/*   letter-spacing: -2px;
+ */}
 
 .vegan {
   max-width: 70%;
@@ -464,7 +463,8 @@ figure img {
   background-color: #94b25f;
 }
 
-/* RESPONSIVE PANIER */
+
+
 
 /* ACCOUNT */
 
