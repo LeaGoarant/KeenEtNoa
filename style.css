@@ -442,7 +442,7 @@ th {
 
 /* SHOP */
 
-figure {
+/* figure {
   width: auto !important;
   overflow: hidden !important;
   margin: 0 !important;
@@ -455,7 +455,7 @@ figure img {
 .change-ratio img {
   margin: -16.25% 0 !important;
   padding-bottom: 20%;
-}
+} */
 
 .woocommerce .products ul,
 .woocommerce ul.products {
@@ -520,7 +520,7 @@ figure img {
 
 .woocommerce div.product div.images img {
   max-width: 500px;
-  margin-left: 15%;
+  margin-left: 5%;
 }
 
 .product_title.entry-title {
