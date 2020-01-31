@@ -52,7 +52,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <h4>29€</h4>
+                                    <h4 class="woocommerce-Price-amount amount">29€</h4>
                                 </td>
                             </tr>
                             <tr>
@@ -67,7 +67,9 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <button type="button" class="btn btn-primary">Je m'abonne</button>
+                                    <form class="cart" method="post" enctype="multipart/form-data">
+                                        <button type="submit" name="add-to-cart" class="single_add_to_cart_button button alt btn btn-primary">Je m'abonne</button>
+                                    </form>
                                 </td>
                             </tr>
                         </table>
@@ -80,7 +82,7 @@
                             </tr>
                             <tr>
                             <td>
-                                <h4>26€</h4>
+                                <h4 class="woocommerce-Price-amount amount">26€</h4>
                             </td>
                             </tr>
                             <tr>
@@ -96,7 +98,9 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <button type="button" class="btn btn-primary">Je m'abonne</button>
+                                    <form class="cart" method="post" enctype="multipart/form-data">
+                                        <button type="submit" name="add-to-cart" class="single_add_to_cart_button button alt btn btn-primary">Je m'abonne</button>
+                                    </form>
                                 </td>
                             </tr>
                         </table>
@@ -109,7 +113,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <h4>23€</h4>
+                                    <h4 class="woocommerce-Price-amount amount">23€</h4>
                                 </td>
                             </tr>
                             <tr>
@@ -125,7 +129,9 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <button type="button" class="btn btn-primary">Je m'abonne</button>
+                                    <form class="cart" method="post" enctype="multipart/form-data">
+                                        <button type="submit" name="add-to-cart" class="single_add_to_cart_button button alt btn btn-primary">Je m'abonne</button>
+                                    </form>
                                 </td>
                             </tr>
                         </table>
