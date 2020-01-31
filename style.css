@@ -591,16 +591,16 @@ div.woocommerce-info > a {
 }
 
 .keenetnoa_admin tr:nth-child(even) {
-  background-color: #eee;
+  background-color: #CEA682;
 }
 
 .keenetnoa_admin th[scope="col"] {
-  background-color: #696969;
+  background-color: #CEA682;
   color: #fff;
 }
 
 .keenetnoa_admin th[scope="row"] {
-  background-color: #d7d9f2;
+  background-color: #94B25F;
 }
 
 .keenetnoa_admin caption {
