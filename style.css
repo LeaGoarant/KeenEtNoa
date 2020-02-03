@@ -253,6 +253,12 @@ h2 {
   }
 }
 
+@media (min-width: 991.98px){
+  table {
+    margin-left: 28%;
+  }
+}
+
 .fa-leaf {
   width: 30px;
 }
