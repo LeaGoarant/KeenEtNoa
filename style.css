@@ -89,7 +89,7 @@ h4 {
   margin-bottom: 5%;
 }
 
-.row{
+.row {
   margin-right: 0% !important;
 }
 
@@ -98,7 +98,7 @@ h4 {
   margin-left: 5%;
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
   .logo-keen {
     max-width: 70% !important;
     margin-bottom: 8%;
@@ -110,7 +110,7 @@ li {
   margin-bottom: 2%;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .v1 {
     position: absolute;
     border-left: 2px dotted #94b25f;
@@ -137,7 +137,7 @@ h1 {
   text-align: center;
 }
 
-@media (max-width: 576px){
+@media (max-width: 576px) {
   h1 {
     color: black;
     font-style: "Open Sans", sans-serif;
@@ -159,7 +159,7 @@ h1 {
 @media (min-width: 576px) and (max-width: 767.98px) {
   h1 {
     background-color: rgba(255, 255, 255, 0.541);
-    margin-top: 20%; 
+    margin-top: 20%;
   }
 
   .homebutton {
@@ -200,7 +200,7 @@ h2 {
   background-color: #dce4cb;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   #box > p {
     margin-right: 8% !important;
     margin-left: 8% !important;
@@ -217,18 +217,17 @@ h2 {
 
 .font-styling {
   color: black;
-  font-style: 'Open Sans', sans-serif;
+  font-style: "Open Sans", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: -1px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .font-styling {
     font-size: 15px;
   }
 }
-
 
 @media (max-width: 575.98px) {
   table {
@@ -309,8 +308,11 @@ h2 {
   cursor: pointer;
 }
 
-@media (max-width: 1199.99px){
-  .box_wrapper, .computer_wrapper, .basket_wrapper, .truck_wrapper {
+@media (max-width: 1199.99px) {
+  .box_wrapper,
+  .computer_wrapper,
+  .basket_wrapper,
+  .truck_wrapper {
     background-color: #f4f4f2;
   }
 }
@@ -319,16 +321,17 @@ h2 {
 .text-computer,
 .text-basket,
 .text-truck {
-
   text-align: left;
   margin-left: 5%;
   margin-top: 5%;
   visibility: hidden;
 }
 
-
-@media (max-width: 1199.99px){
-  .text-box, .text-computer, .text-basket, .text-truck {
+@media (max-width: 1199.99px) {
+  .text-box,
+  .text-computer,
+  .text-basket,
+  .text-truck {
     text-align: left;
     margin-left: 5%;
     margin-top: 5%;
@@ -336,15 +339,24 @@ h2 {
   }
 }
 
-.box_wrapper:hover .text-box, .computer_wrapper:hover .text-computer, .basket_wrapper:hover .text-basket, .truck_wrapper:hover .text-truck {
+.box_wrapper:hover .text-box,
+.computer_wrapper:hover .text-computer,
+.basket_wrapper:hover .text-basket,
+.truck_wrapper:hover .text-truck {
   visibility: visible;
 }
 
-.box_wrapper:hover .img_box, .computer_wrapper:hover .img_computer, .basket_wrapper:hover .img_basket, .truck_wrapper:hover .img_truck {
+.box_wrapper:hover .img_box,
+.computer_wrapper:hover .img_computer,
+.basket_wrapper:hover .img_basket,
+.truck_wrapper:hover .img_truck {
   width: 25%;
 }
 
-.box_wrapper:hover, .computer_wrapper:hover, .basket_wrapper:hover, .truck_wrapper:hover {
+.box_wrapper:hover,
+.computer_wrapper:hover,
+.basket_wrapper:hover,
+.truck_wrapper:hover {
   background-color: #f4f4f2;
   border-radius: 10px;
 }
@@ -369,7 +381,6 @@ h2 {
 .truck_wrapper:hover {
   background-color: #f4f4f2;
   border-radius: 10px;
-
 }
 
 .sub_wrapper {
@@ -392,7 +403,7 @@ h2 {
   margin-bottom: 10%;
 }
 
-@media (min-width: 767.98px) and (max-width: 991.98px){
+@media (min-width: 767.98px) and (max-width: 991.98px) {
   .discovery_table {
     margin-left: 5%;
   }
@@ -402,19 +413,23 @@ h2 {
   }
 }
 
-@media (max-width: 768px){
-  .discovery_table, .regular_table, .premium_table { 
+@media (max-width: 768px) {
+  .discovery_table,
+  .regular_table,
+  .premium_table {
     margin-left: 5%;
     margin-right: 5%;
   }
 }
 
-.discovery_table tr, .regular_table tr, .premium_table tr {
+.discovery_table tr,
+.regular_table tr,
+.premium_table tr {
   border: 1px solid lightgrey;
   height: 60px;
 }
 
-@media (min-width: 991.98px){
+@media (min-width: 991.98px) {
   .discovery_table {
     margin-left: 10%;
   }
@@ -472,7 +487,7 @@ figure img {
   background-color: inherit;
   border: none;
   color: #67615a;
-  margin-top: -1%;
+  margin-top: auto;
 }
 
 .woocommerce ul.products li.product .button:hover {
@@ -489,6 +504,25 @@ figure img {
 
 .woocommerce a.added_to_cart {
   display: none;
+}
+
+.button.single_add_to_cart_button:before{
+  display: inline-block;
+  font-family: FontAwesome;
+  float: left;
+  content: "\f291";
+  font-weight: 400;
+  margin-right: 0.5em;
+}
+
+
+.button.add_to_cart_button:before{
+  display: inline-block;
+  font-family: FontAwesome;
+  float: left;
+  content: "\f291";
+  font-weight: 400;
+  margin-right: 0.5em;
 }
 
 /* PAGE PRODUIT */
@@ -586,8 +620,7 @@ figure img {
   background-color: #94b25f;
 }
 
-
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .wc-proceed-to-checkout {
     margin-left: 8%;
     margin-right: 8%;
@@ -628,21 +661,27 @@ li.woocommerce-MyAccount-navigation-link.is-active {
 }
 
 @media (max-width: 575.98px) {
-  .woocommerce-info, .woocommerce-MyAccount-content, .woocommerce-EditAccountForm.edit-account {
+  .woocommerce-info,
+  .woocommerce-MyAccount-content,
+  .woocommerce-EditAccountForm.edit-account {
     margin-left: 2%;
     margin-right: 7%;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .woocommerce-info, .woocommerce-MyAccount-content, .woocommerce-EditAccountForm.edit-account {
+  .woocommerce-info,
+  .woocommerce-MyAccount-content,
+  .woocommerce-EditAccountForm.edit-account {
     margin-left: 2%;
     margin-right: 7%;
   }
 }
 
 @media (min-width: 767.98px) and (max-width: 991.98px) {
-  .woocommerce-info, .woocommerce-MyAccount-content, .woocommerce-EditAccountForm.edit-account {
+  .woocommerce-info,
+  .woocommerce-MyAccount-content,
+  .woocommerce-EditAccountForm.edit-account {
     margin-left: 2%;
     margin-right: 5%;
   }
@@ -724,46 +763,16 @@ div.woocommerce-info > a {
 
 /* PANEL ADMIN */
 
-.keen_logo_uploader {
-  justify-content: center;
-  margin-left: 5%;
+.adminkeen {
+  line-height: 5em; /* hauteur de ligne (identique) */
+  white-space: nowrap; /* interdiction de passer à la ligne */
 }
 
-.keenetnoa_admin td,
-.keenetnoa_admin th {
-  border: 1px solid rgb(190, 190, 190);
-  padding: 10px;
+.wp-core-ui .button, .wp-core-ui .button-secondary {
+  vertical-align: unset !important; 
 }
 
-.keenetnoa_admin td {
-  text-align: center;
-}
 
-.keenetnoa_admin tr:nth-child(even) {
-  background-color: #eee;
-}
-
-.keenetnoa_admin th[scope="col"] {
-  background-color: #696969;
-  color: #fff;
-}
-
-.keenetnoa_admin th[scope="row"] {
-  background-color: #d7d9f2;
-}
-
-.keenetnoa_admin caption {
-  padding: 10px;
-  caption-side: bottom;
-}
-
-.keenetnoa_admin table {
-  border-collapse: collapse;
-  border: 2px solid rgb(200, 200, 200);
-  letter-spacing: 1px;
-  font-family: sans-serif;
-  font-size: 0.8rem;
-}
 
 /* CHECKOUT WOOCOMMERCE */
 
