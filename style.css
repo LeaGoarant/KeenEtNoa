@@ -487,7 +487,7 @@ figure img {
   background-color: inherit;
   border: none;
   color: #67615a;
-  margin-top: -1%;
+  margin-top: auto;
 }
 
 .woocommerce ul.products li.product .button:hover {
@@ -504,6 +504,25 @@ figure img {
 
 .woocommerce a.added_to_cart {
   display: none;
+}
+
+.button.single_add_to_cart_button:before{
+  display: inline-block;
+  font-family: FontAwesome;
+  float: left;
+  content: "\f291";
+  font-weight: 400;
+  margin-right: 0.5em;
+}
+
+
+.button.add_to_cart_button:before{
+  display: inline-block;
+  font-family: FontAwesome;
+  float: left;
+  content: "\f291";
+  font-weight: 400;
+  margin-right: 0.5em;
 }
 
 /* PAGE PRODUIT */
