@@ -45,11 +45,9 @@
                 );
                 ?>
 
-            </div>
-
             <button class="btn btn-outline" type="submit" id="button-addon2" data-toggle="collapse" data-target="#searchbar">
-                    <i class="fas fa-search"></i>
-                </button>
+                <i class="fas fa-search"></i>
+            </button>
                 <div class="collapse" id="searchbar">
                     <form class="form-inline ml-auto">
                         <div class="md-form my-0">
@@ -57,6 +55,8 @@
                         </div>
                     </form>
                 </div>
+
+            </div>
         </nav>
 
     </header>
