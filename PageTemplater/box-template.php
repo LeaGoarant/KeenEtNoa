@@ -45,7 +45,7 @@
                 </h2>
 
                 <div class="row">
-                    <div class="col-md-12 col-sm-12 col-lg-4">
+                    <div class="col-md-12 col-lg-4">
                         <table class="discovery_table">
                             <tr>
                                 <th class="font-styling">Discovery</th>
@@ -75,7 +75,7 @@
                         </table>
                     </div>
 
-                    <div class="col-md-12 col-sm-12 col-lg-4">
+                    <div class="col-md-12 col-lg-4">
                         <table class="regular_table">
                             <tr>
                                 <th class="font-styling">Regular</th>
@@ -86,10 +86,10 @@
                             </td>
                             </tr>
                             <tr>
-                                <td>Engagement sur trois mois (avec un prélèvement en une seule fois de 78 €)</td>
+                                <td>Prélèvement en une seule fois de 78 €</td>
                             </tr>
                             <tr>
-                                <td>Recevez 3 box</td>
+                                <td>Recevez la box pendant 3 mois</td>
                             </tr>
                             <tr>
                                 <td>Avec la Regular, c’est comme fêter son anniversaire pendant 3 mois ! 
@@ -106,7 +106,7 @@
                         </table>
                     </div>
 
-                    <div class="col-md-12 col-sm-12 col-lg-4">
+                    <div class="col-md-12 col-lg-4">
                         <table class="premium_table">
                             <tr>
                                 <th class="font-styling">Premium</th>
@@ -117,10 +117,10 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>Engagement sur 6 mois (Avec un prélèvement en une seule fois de 138€)</td>
+                                <td>Prélèvement en une seule fois de 138€</td>
                             </tr>
                             <tr>
-                                <td>Recevez 6 box</td>
+                                <td>Recevez la box pendant 6 mois</td>
                             </tr>
                             <tr>
                                 <td>Pour les adeptes de la « healthy food » et pour un maximum de confort, commandez 
@@ -135,6 +135,107 @@
                                 </td>
                             </tr>
                         </table>
+
+                        <!-- Mobile Version -->
+
+                        <div class="accordion" id="accordionMobile">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between align-items-center" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h2 class="mb-0">Discovery</h2>
+                                    <h4>29€</h4>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionMobile">
+                                <div class="card-body">
+                                    <table>
+                                    <tr class="home-table">
+                                        <td>Sans engagement</td>
+                                    </tr>
+                                    <tr class="home-table">
+                                        <td>Recevez 1 box</td>
+                                    </tr>
+                                    <tr class="home-table">
+                                        <td>La box Discovery est parfaite pour les petits curieux ou les amateurs de 
+                                            surprise ou encore en cadeau. Vous n’allez plus vous en passer !</td>
+                                    </tr>
+                                    <tr class="home-table">
+                                        <td>
+                                            <form class="cart" method="post" enctype="multipart/form-data">
+                                                <button type="submit" name="add-to-cart" class="single_add_to_cart_button button alt btn btn-primary">Je m'abonne</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                    </table>
+                                </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header d-inline-flex justify-content-between align-items-center" id="headingTwo" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h2 class="mb-0">Regular</h2>
+                                    <h4>26€</h4>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionMobile">
+                                <div class="card-body">
+                                    <table>
+                                    <tr class="home-table">
+                                        <td>Prélèvement en une seule fois de 78 €</td>
+                                    </tr>
+                                    <tr class="home-table">
+                                        <td>Recevez la box pendant 3 mois</td>
+                                    </tr>
+                                    <tr class="home-table">
+                                        <td>Avec la Regular, c’est comme fêter son anniversaire pendant 3 mois ! 
+                                            L’ensemble des produits est renouvelé chaque mois pour un maximum de gourmandise.
+                                        </td>
+                                    </tr>
+                                    <tr class="home-table">
+                                        <td>
+                                            <form class="cart" method="post" enctype="multipart/form-data">
+                                                <button type="submit" name="add-to-cart" class="single_add_to_cart_button button alt btn btn-primary">Je m'abonne</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                    </table>
+                                </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between align-items-center" id="headingThree" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h2 class="mb-0">Premium</h2>
+                                    <h4>23€</h4>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionMobile">
+                                <div class="card-body">
+                                    <table>
+                                    <tr class="home-table">
+                                        <td>Prélèvement en une seule fois de 138€</td>
+                                    </tr>
+                                    <tr class="home-table">
+                                        <td>Recevez la box pendant 6 mois</td>
+                                    </tr>
+                                    <tr class="home-table"> 
+                                        <td>Pour les adeptes de la « healthy food » et pour un maximum de confort, commandez 
+                                            la box Premium. Craquez et faites vous plaisir sans culpabiliser!
+                                        </td>
+                                    </tr>
+                                    <tr class="home-table">
+                                        <td>
+                                            <form class="cart" method="post" enctype="multipart/form-data">
+                                                <button type="submit" name="add-to-cart" class="single_add_to_cart_button button alt btn btn-primary">Je m'abonne</button>
+                                            </form>
+                                        </td>
+                                    </tr>                                       
+                                    </table>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

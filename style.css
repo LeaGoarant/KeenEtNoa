@@ -412,10 +412,9 @@ h2 {
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 767.98px){
   .discovery_table, .regular_table, .premium_table { 
-    margin-left: 5%;
-    margin-right: 5%;
+    display: none;
   }
 }
 
@@ -448,6 +447,18 @@ th {
 
 .btn-primary:hover {
   background-color: #dce4cb;
+}
+
+@media (min-width: 767.98px) {
+  #accordionMobile {
+    display: none;
+  }
+}
+
+#accordionMobile {
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 /* SHOP */
