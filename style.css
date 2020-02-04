@@ -74,6 +74,10 @@ h3 {
   }
 }
 
+.navbar-toggler {
+  text-align: right;
+}
+
 /* FOOTER */
 
 h4 {
@@ -245,6 +249,12 @@ h2 {
 @media (min-width: 767.98px) and (max-width: 991.98px) {
   table {
     margin-left: 13%;
+  }
+}
+
+@media (min-width: 991.98px){
+  table {
+    margin-left: 28%;
   }
 }
 
@@ -486,7 +496,7 @@ padding-top: 1.5%;
 }
 /* _______________________________________________  */
 
-figure {
+/* figure {
   width: auto !important;
   overflow: hidden !important;
   margin: 0 !important;
@@ -499,7 +509,7 @@ figure img {
 .change-ratio img {
   margin: -16.25% 0 !important;
   padding-bottom: 20%;
-}
+} */
 
 .woocommerce-products-header{
 margin-bottom: 9%;
@@ -582,7 +592,6 @@ margin-bottom: 9%;
 
 .wc-accordion-group {
   text-align: center;
-  margin-top: 5%;
 }
 
 .woocommerce div.product div.images img {
