@@ -235,26 +235,26 @@ h2 {
 
 
 @media (max-width: 575.98px) {
-  table {
+  .home {
     margin-left: 5%;
     margin-right: 5%;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  table {
+  .home {
     margin-left: 7%;
   }
 }
 
 @media (min-width: 767.98px) and (max-width: 991.98px) {
-  table {
+  .home {
     margin-left: 13%;
   }
 }
 
 @media (min-width: 991.98px){
-  table {
+  .home {
     margin-left: 28%;
   }
 }
@@ -402,16 +402,6 @@ h2 {
   margin-bottom: 10%;
 }
 
-@media (min-width: 767.98px) and (max-width: 991.98px){
-  .discovery_table {
-    margin-left: 5%;
-  }
-
-  .premium_table {
-    margin-right: 5%;
-  }
-}
-
 @media (max-width: 767.98px){
   .discovery_table, .regular_table, .premium_table { 
     display: none;
@@ -421,16 +411,6 @@ h2 {
 .discovery_table tr, .regular_table tr, .premium_table tr {
   border: 1px solid lightgrey;
   height: 60px;
-}
-
-@media (min-width: 991.98px){
-  .discovery_table {
-    margin-left: 10%;
-  }
-
-  .premium_table {
-    margin-right: 10%;
-  }
 }
 
 td,
@@ -465,6 +445,10 @@ th {
   margin-left: 5%;
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+.col-md-12, .col-lg-4 > .premium_table {
+  padding-right: 0px !important;
 }
 
 /* SHOP */

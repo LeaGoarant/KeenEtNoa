@@ -22,7 +22,7 @@
         <h2 style="color:#94b25f;">NOS ENGAGEMENTS</h2>
         <div class="row">
         <div class="col-lg-12 col-sm-12 col-md-12">
-            <table>
+            <table class="home">
                 <tr class="home-table">
                     <th></th>
                     <th class="font-styling">Tous nos produits respectent au moins une de ces caractéristiques :</th>
