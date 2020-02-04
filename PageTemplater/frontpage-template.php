@@ -82,5 +82,54 @@
         </div>
     </div>
 
+    <div id="newsletter">
+        <br/>
+        <h2>ABONNEZ VOUS À NOTRE NEWSLETTER</h2>
+        <h3>Que souhaitez vous recevoir ?</h3>
+        <form>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Promotions" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    Nos offres et promotions
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Products" id="defaultCheck2">
+                <label class="form-check-label" for="defaultCheck2">
+                    Nos nouveaux produits
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Recipes" id="defaultCheck3">
+                <label class="form-check-label" for="defaultCheck3">
+                    Nos recettes
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Accept" id="defaultCheck4" required>
+                <label class="form-check-label" for="defaultCheck4">
+                    J'accepte les <a href="">termes et conditions</a>.*
+                </label>
+                <br/>
+                <small>
+                    En renseignant votre adresse email, vous acceptez de recevoir toutes les news de Keenetnoa par mail, juste une fois par semaine et vous prenez connaissance de notre 
+                    <a href="">Politique de confidentialité</a>.
+                    <br/>
+                    Vous pouvez vous désinscrire à tout moment à l’aide des liens de désinscription ou en nous 
+                    <a href="">contactant</a>.
+                </small>
+            </div>
+            <button type="submit" class="btn btn-primary">M'inscrire</button>
+        </form>
+    </div>
+
 
 <?php get_footer() ?>
