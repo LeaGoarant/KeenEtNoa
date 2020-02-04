@@ -128,7 +128,7 @@ function bbloomer_woocommerce_short_description_truncate_read_more() {
          if (content.length > show_char) {
             var a = content.substr(0, show_char);
             var b = content.substr(show_char - content.length);
-            var html = a + '<span class="truncated">' + ellipses + '<a href="" class="read-more">Read more</a></span><span class="truncated" style="display:none">' + b + '</span>';
+            var html = a + '<span class="truncated">' + ellipses + '<a style="color: #d3b28b;" href="" class="read-more">... Lire la suite</a></span><span class="truncated" style="display:none">' + b + '</span>';
             $(".woocommerce-product-details__short-description").html(html);
          }
  
