@@ -445,6 +445,12 @@ th {
   width: 50%;
 }
 
+@media (max-width: 767.98px){
+  .btn-primary {
+    width: auto;
+  }
+}
+
 .btn-primary:hover {
   background-color: #dce4cb;
 }

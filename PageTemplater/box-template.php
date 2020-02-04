@@ -141,8 +141,8 @@
                         <div class="accordion" id="accordionMobile">
                             <div class="card">
                                 <div class="card-header d-flex justify-content-between align-items-center" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <h2 class="mb-0">Discovery</h2>
-                                    <h4>29€</h4>
+                                    <h2 class="mb-0" style="font-size: 23px;">Discovery</h2>
+                                    <h4 style="font-size: 20px;">29€</h4>
                                     <i class="fas fa-chevron-down"></i>
                                 </div>
 
@@ -159,7 +159,7 @@
                                         <td>La box Discovery est parfaite pour les petits curieux ou les amateurs de 
                                             surprise ou encore en cadeau. Vous n’allez plus vous en passer !</td>
                                     </tr>
-                                    <tr class="home-table">
+                                    <tr>
                                         <td>
                                             <form class="cart" method="post" enctype="multipart/form-data">
                                                 <button type="submit" name="add-to-cart" class="single_add_to_cart_button button alt btn btn-primary">Je m'abonne</button>
@@ -171,10 +171,12 @@
                                 </div>
                             </div>
 
+                            <br/>
+
                             <div class="card">
                                 <div class="card-header d-inline-flex justify-content-between align-items-center" id="headingTwo" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <h2 class="mb-0">Regular</h2>
-                                    <h4>26€</h4>
+                                    <h2 class="mb-0" style="font-size: 23px;">Regular</h2>
+                                    <h4 style="font-size: 20px;">26€</h4>
                                     <i class="fas fa-chevron-down"></i>
                                 </div>
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionMobile">
@@ -191,7 +193,7 @@
                                             L’ensemble des produits est renouvelé chaque mois pour un maximum de gourmandise.
                                         </td>
                                     </tr>
-                                    <tr class="home-table">
+                                    <tr>
                                         <td>
                                             <form class="cart" method="post" enctype="multipart/form-data">
                                                 <button type="submit" name="add-to-cart" class="single_add_to_cart_button button alt btn btn-primary">Je m'abonne</button>
@@ -203,10 +205,12 @@
                                 </div>
                             </div>
 
+                            <br/>
+
                             <div class="card">
                                 <div class="card-header d-flex justify-content-between align-items-center" id="headingThree" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <h2 class="mb-0">Premium</h2>
-                                    <h4>23€</h4>
+                                    <h2 class="mb-0" style="font-size: 23px;">Premium</h2>
+                                    <h4 style="font-size: 20px;">23€</h4>
                                     <i class="fas fa-chevron-down"></i>
                                 </div>
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionMobile">
@@ -223,10 +227,10 @@
                                             la box Premium. Craquez et faites vous plaisir sans culpabiliser!
                                         </td>
                                     </tr>
-                                    <tr class="home-table">
+                                    <tr>
                                         <td>
                                             <form class="cart" method="post" enctype="multipart/form-data">
-                                                <button type="submit" name="add-to-cart" class="single_add_to_cart_button button alt btn btn-primary">Je m'abonne</button>
+                                                <button style="justify-content: center;" type="submit" name="add-to-cart" class="single_add_to_cart_button button alt btn btn-primary">Je m'abonne</button>
                                             </form>
                                         </td>
                                     </tr>                                       
