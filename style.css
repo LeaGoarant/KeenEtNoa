@@ -34,8 +34,8 @@ h3 {
   font-family: "Open Sans", sans-serif;
   color: #67615a;
   font-weight: bold;
-  letter-spacing: -2px;
-  font-size: 22px;
+/*   letter-spacing: -2px;
+ */  font-size: 22px;
 }
 
 /*  HEADER */
@@ -186,8 +186,8 @@ h2 {
   margin-left: 5%;
   font-style: "Open Sans", sans-serif;
   font-weight: bold;
-  letter-spacing: -2px;
-}
+/*   letter-spacing: -2px;
+ */}
 
 .vegan {
   max-width: 70%;
@@ -457,6 +457,35 @@ th {
 
 /* SHOP */
 
+/* Widget Shop */
+.keen_shop_widget {
+padding-top: 1.5%;
+
+}
+
+.woocommerce-page .select2-results__option{
+  color: #97B160;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+
+}
+
+.woocommerce-page .select2-selection__placeholder{
+  color: black !important;
+}
+
+.woocommerce-page .select2-results__options{
+  margin-top: 10%;
+}
+
+.woocommerce-page .select2-results__options{
+  margin-top: 20px;
+}
+/* _______________________________________________  */
+
 figure {
   width: auto !important;
   overflow: hidden !important;
@@ -470,6 +499,10 @@ figure img {
 .change-ratio img {
   margin: -16.25% 0 !important;
   padding-bottom: 20%;
+}
+
+.woocommerce-products-header{
+margin-bottom: 9%;
 }
 
 .woocommerce .products ul,
