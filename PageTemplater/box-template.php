@@ -174,7 +174,7 @@
                             <br/>
 
                             <div class="card">
-                                <div class="card-header d-inline-flex justify-content-between align-items-center" id="headingTwo" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <div class="card-header d-inline-flex justify-content-between align-items-center" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                                     <h2 class="mb-0" style="font-size: 23px;">Regular</h2>
                                     <h4 style="font-size: 20px;">26€</h4>
                                     <i class="fas fa-chevron-down"></i>
@@ -208,7 +208,7 @@
                             <br/>
 
                             <div class="card">
-                                <div class="card-header d-flex justify-content-between align-items-center" id="headingThree" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <div class="card-header d-flex justify-content-between align-items-center" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                                     <h2 class="mb-0" style="font-size: 23px;">Premium</h2>
                                     <h4 style="font-size: 20px;">23€</h4>
                                     <i class="fas fa-chevron-down"></i>
