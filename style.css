@@ -34,7 +34,8 @@ h3 {
   font-family: "Open Sans", sans-serif;
   color: #67615a;
   font-weight: bold;
-  letter-spacing: -2px;
+  /*   letter-spacing: -2px;
+ */
   font-size: 22px;
 }
 
@@ -189,7 +190,8 @@ h2 {
   margin-left: 5%;
   font-style: "Open Sans", sans-serif;
   font-weight: bold;
-  letter-spacing: -2px;
+  /*   letter-spacing: -2px;
+ */
 }
 
 .vegan {
@@ -502,6 +504,38 @@ th {
 
 /* SHOP */
 
+/* Widget Shop */
+
+.keen_shop_widget .th3{
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-top: 18px;
+}
+
+.keen_shop_widget a{
+  margin-top: 8px;
+  color: #94b25f;
+  font-weight: bold;
+}
+
+.woocommerce-mini-cart a{
+  margin-top: 8px;
+  color: #d6a76d;
+  font-weight: bold;
+}
+
+.keen_shop_widget li {
+  list-style: none;
+  padding-right: 10px;
+}
+
+
+/* _______________________________________________  */
+
 /* figure {
   width: auto !important;
   overflow: hidden !important;
@@ -516,6 +550,10 @@ figure img {
   margin: -16.25% 0 !important;
   padding-bottom: 20%;
 } */
+
+.woocommerce-products-header {
+  margin-bottom: 9%;
+}
 
 .woocommerce .products ul,
 .woocommerce ul.products {
@@ -551,20 +589,17 @@ figure img {
   display: none;
 }
 
-.button.single_add_to_cart_button:before{
+.button.single_add_to_cart_button:before {
   display: inline-block;
   font-family: FontAwesome;
-  float: left;
   content: "\f291";
   font-weight: 400;
   margin-right: 0.5em;
 }
 
-
-.button.add_to_cart_button:before{
+.button.add_to_cart_button:before {
   display: inline-block;
   font-family: FontAwesome;
-  float: left;
   content: "\f291";
   font-weight: 400;
   margin-right: 0.5em;
@@ -818,11 +853,10 @@ div.woocommerce-info > a {
   white-space: nowrap; /* interdiction de passer à la ligne */
 }
 
-.wp-core-ui .button, .wp-core-ui .button-secondary {
-  vertical-align: unset !important; 
+.wp-core-ui .button,
+.wp-core-ui .button-secondary {
+  vertical-align: unset !important;
 }
-
-
 
 /* CHECKOUT WOOCOMMERCE */
 
