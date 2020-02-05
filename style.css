@@ -121,6 +121,10 @@ li {
   }
 }
 
+#menu-liens-utiles a, #menu-legal-1 a {
+  color: #67615a;
+}
+
 /* HOMEPAGE */
 
 .home-page {
