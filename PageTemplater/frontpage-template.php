@@ -22,7 +22,7 @@
         <h2 style="color:#94b25f;">NOS ENGAGEMENTS</h2>
         <div class="row">
         <div class="col-lg-12 col-sm-12 col-md-12">
-            <table class="home">
+            <table class="home-tb">
                 <tr class="home-table">
                     <th></th>
                     <th class="font-styling">Tous nos produits respectent au moins une de ces caractéristiques :</th>
@@ -84,9 +84,11 @@
 
     <div id="newsletter">
         <br/>
-        <h2>ABONNEZ VOUS À NOTRE NEWSLETTER</h2>
-        <h3>Que souhaitez vous recevoir ?</h3>
-        <form>
+        <h2 style="color:#94b25f;">ABONNEZ VOUS À NOTRE NEWSLETTER</h2>
+        <br/>
+        <h3 style="margin-left: 5%;">Que souhaitez vous recevoir ?</h3>
+        <br/>
+        <form class="home-form">
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="Promotions" id="defaultCheck1">
                 <label class="form-check-label" for="defaultCheck1">
@@ -107,7 +109,7 @@
                     Nos recettes
                 </label>
             </div>
-
+            <br/>
             <div class="form-group">
                 <label for="exampleInputEmail1">Email</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
@@ -127,8 +129,11 @@
                     <a href="">contactant</a>.
                 </small>
             </div>
-            <button type="submit" class="btn btn-primary">M'inscrire</button>
+            <br/>
+            <br/>
+            <button style="margin-left: 25%;" type="submit" class="btn btn-primary">M'inscrire</button>
         </form>
+        <br/>
     </div>
 
 
