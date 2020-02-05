@@ -34,8 +34,9 @@ h3 {
   font-family: "Open Sans", sans-serif;
   color: #67615a;
   font-weight: bold;
-/*   letter-spacing: -2px;
- */  font-size: 22px;
+  /*   letter-spacing: -2px;
+ */
+  font-size: 22px;
 }
 
 /*  HEADER */
@@ -190,8 +191,9 @@ h2 {
   margin-left: 5%;
   font-style: "Open Sans", sans-serif;
   font-weight: bold;
-/*   letter-spacing: -2px;
- */}
+  /*   letter-spacing: -2px;
+ */
+}
 
 .vegan {
   max-width: 70%;
@@ -252,7 +254,7 @@ h2 {
   }
 }
 
-@media (min-width: 991.98px){
+@media (min-width: 991.98px) {
   table {
     margin-left: 28%;
   }
@@ -468,32 +470,35 @@ th {
 /* SHOP */
 
 /* Widget Shop */
-.keen_shop_widget {
-padding-top: 1.5%;
 
-}
-
-.woocommerce-page .select2-results__option{
-  color: #97B160;
-  font-weight: bold;
+.keen_shop_widget .th3{
   font-family: "Open Sans", sans-serif;
+  color: black;
   list-style: none;
   text-transform: uppercase;
+  font-weight: bold;
   letter-spacing: -1px;
-
+  margin-top: 18px;
 }
 
-.woocommerce-page .select2-selection__placeholder{
-  color: black !important;
+.keen_shop_widget a{
+  margin-top: 8px;
+  color: #94b25f;
+  font-weight: bold;
 }
 
-.woocommerce-page .select2-results__options{
-  margin-top: 10%;
+.woocommerce-mini-cart a{
+  margin-top: 8px;
+  color: #d6a76d;
+  font-weight: bold;
 }
 
-.woocommerce-page .select2-results__options{
-  margin-top: 20px;
+.keen_shop_widget li {
+  list-style: none;
+  padding-right: 10px;
 }
+
+
 /* _______________________________________________  */
 
 /* figure {
@@ -511,8 +516,8 @@ figure img {
   padding-bottom: 20%;
 } */
 
-.woocommerce-products-header{
-margin-bottom: 9%;
+.woocommerce-products-header {
+  margin-bottom: 9%;
 }
 
 .woocommerce .products ul,
@@ -549,7 +554,7 @@ margin-bottom: 9%;
   display: none;
 }
 
-.button.single_add_to_cart_button:before{
+.button.single_add_to_cart_button:before {
   display: inline-block;
   font-family: FontAwesome;
   float: left;
@@ -558,8 +563,7 @@ margin-bottom: 9%;
   margin-right: 0.5em;
 }
 
-
-.button.add_to_cart_button:before{
+.button.add_to_cart_button:before {
   display: inline-block;
   font-family: FontAwesome;
   float: left;
@@ -810,11 +814,10 @@ div.woocommerce-info > a {
   white-space: nowrap; /* interdiction de passer à la ligne */
 }
 
-.wp-core-ui .button, .wp-core-ui .button-secondary {
-  vertical-align: unset !important; 
+.wp-core-ui .button,
+.wp-core-ui .button-secondary {
+  vertical-align: unset !important;
 }
-
-
 
 /* CHECKOUT WOOCOMMERCE */
 
