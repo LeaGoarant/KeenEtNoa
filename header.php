@@ -19,13 +19,14 @@
     <meta charset="<?php bloginfo('charset'); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <?php wp_head(); ?>
+    <script src="https://kit.fontawesome.com/e30c9325cd.js" crossorigin="anonymous"></script>
 </head>
 
 <body <?php body_class(); ?>>
 
     <header id="masthead" class="site-header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <img src="<?= get_option('logo', '');?>" class="keencustom">
+            <a href="<?php echo get_home_url(); ?>"><img src="<?= get_option('logo', '');?>" class="keencustom"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

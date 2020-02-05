@@ -30,9 +30,7 @@ function keenetnoa_scripts()
 	wp_enqueue_style('style');
 
 	wp_enqueue_script('bootstrap', get_template_directory_uri() . '/js/bootstrap.js', array('jquery'), '3.4.1', true);
-	/* 	wp_enqueue_script( 'bpc_togglemenu', get_template_directory_uri() . '/js/navigation.js', array('jquery'), '20160909', true );
- */	/* 	wp_register_script(' media-uploader ',  get_template_directory_uri() . '/js/bootstrap.min.js', array(' jquery '));
- */
+
 }
 
 
@@ -99,7 +97,6 @@ function addBootstrapToCheckoutFields($fields)
 	return $fields;
 }
 
-
 /* Nav Profil Page */
 remove_action('woocommerce_account_navigation', 'woocommerce_account_navigation');
 
@@ -141,3 +138,7 @@ function bbloomer_woocommerce_short_description_truncate_read_more() {
    </script>
    <?php
 }
+
+/* Icon to Add to car */ 
+
+
