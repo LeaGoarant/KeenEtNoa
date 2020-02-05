@@ -30,6 +30,10 @@ function keenetnoa_scripts()
 	wp_enqueue_style('style');
 
 	wp_enqueue_script('bootstrap', get_template_directory_uri() . '/js/bootstrap.js', array('jquery'), '3.4.1', true);
+
+	/* 	wp_enqueue_script( 'bpc_togglemenu', get_template_directory_uri() . '/js/navigation.js', array('jquery'), '20160909', true );
+ */	/* 	wp_register_script(' media-uploader ',  get_template_directory_uri() . '/js/bootstrap.min.js', array(' jquery '));
+ */
 }
 
 
@@ -97,6 +101,7 @@ function addBootstrapToCheckoutFields($fields)
 	return $fields;
 }
 
+
 /* Nav Profil Page */
 remove_action('woocommerce_account_navigation', 'woocommerce_account_navigation');
 
@@ -116,3 +121,24 @@ function Keenwidget()
 	));
 }
 
+// Footer Widget
+
+add_action('widgets_init', 'FooterWidget');
+function Footerwidget() {
+
+	register_sidebar(array(
+		'name' => 'Footer links center',
+		'id' => 'footer-links-center',
+		'description' => 'Widget to add links to pages in the footer section',
+		'before_widget'	=> '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+	));
+
+	register_sidebar(array(
+		'name' => 'Footer links right',
+		'id' => 'footer-links-right',
+		'description' => 'Widget to add links to pages in the footer section',
+		'before_widget'	=> '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+	));
+}
