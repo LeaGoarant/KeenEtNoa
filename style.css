@@ -572,6 +572,12 @@ figure img {
   text-decoration: underline;
 }
 
+.input-text.qty.text {
+  border-width: 1px;
+  border-color: #d3b38ba6;
+  border-radius: 10px;
+}
+
 /* PANIER */
 
 .product-name > a,
