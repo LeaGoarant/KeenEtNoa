@@ -6,12 +6,12 @@ function customtheme_add_woocommerce_support()
 	add_theme_support('woocommerce');
 }
 
-/* require_once('keen-options/keen-options.php');
- */
-
+/* require_once('keen-options/keen-options.php');*/
 require_once('PageTemplater/pagetemplater.php');
 require_once('wp-bootstrap-navwalker.php');
 require_once('keen-options/custom.php');
+require_once('js/truncatdesc.php');
+
 
 /* file d'attente des scripts et des styles*/
 add_action('wp_enqueue_scripts', 'keenetnoa_scripts');
@@ -30,6 +30,7 @@ function keenetnoa_scripts()
 	wp_enqueue_style('style');
 
 	wp_enqueue_script('bootstrap', get_template_directory_uri() . '/js/bootstrap.js', array('jquery'), '3.4.1', true);
+
 	/* 	wp_enqueue_script( 'bpc_togglemenu', get_template_directory_uri() . '/js/navigation.js', array('jquery'), '20160909', true );
  */	/* 	wp_register_script(' media-uploader ',  get_template_directory_uri() . '/js/bootstrap.min.js', array(' jquery '));
  */
@@ -73,11 +74,12 @@ remove_action('woocommerce_single_product_summary', 'woocommerce_template_single
 
 add_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 25);
 
+
 add_filter('wc_add_to_cart_message_html', 'add_continue_shopping_button', 10, 2);
 function add_continue_shopping_button($message, $products)
 {
 
-	$message .= sprintf('<a href="%s" class="button wc-forward" style="">%s</a>', esc_url(wc_get_page_permalink('shop')), esc_html__('Continue Shopping', 'woocommerce'));
+	$message .= sprintf('<a href="%s" class="button wc-forward" style="">%s</a>', esc_url(wc_get_page_permalink('shop')), esc_html__('Continuer mon Shopping', 'woocommerce'));
 
 	return $message;
 }
@@ -104,42 +106,19 @@ function addBootstrapToCheckoutFields($fields)
 remove_action('woocommerce_account_navigation', 'woocommerce_account_navigation');
 
 
-/**
- * @snippet       Truncate Short Description @ WooCommerce Single
- * @how-to        Get CustomizeWoo.com FREE
- * @author        Rodolfo Melogli
- * @compatible    WooCommerce 3.7
- * @donate $9     https://businessbloomer.com/bloomer-armada/
- */
- 
-add_action( 'wp_footer', 'bbloomer_woocommerce_short_description_truncate_read_more' );
- 
-function bbloomer_woocommerce_short_description_truncate_read_more() { 
-   if ( ! is_product() ) return;
-   ?>
-   <script type="text/javascript">
-       
-         jQuery(document).ready(function($){
-          
-         var show_char = 800;
-         var content = $(".woocommerce-product-details__short-description").html();
-          
-         if (content.length > show_char) {
-            var a = content.substr(0, show_char);
-            var b = content.substr(show_char - content.length);
-            var html = a + '<span class="truncated">' + '<a style="color: #d3b28b;" href="" class="read-more">... Lire la suite</a></span><span class="truncated" style="display:none">' + b + '</span>';
-            $(".woocommerce-product-details__short-description").html(html);
-         }
- 
-         $(".read-more").click(function(e) {
-            e.preventDefault();
-            $(".woocommerce-product-details__short-description .truncated").toggle();
-         });
- 
-      });
-       
-   </script>
-   <?php
+/* Add Widget section */
+add_action('widgets_init', 'KeenWidget');
+function Keenwidget()
+{
+	register_sidebar(array(
+		'name' => 'Sidebar Shop',
+		'id' => 'sideshop',
+		'description' => 'Sidebar contenant généralement les filtres de produits',
+		'before_widget'	=> '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<div class="widget_title th3">',
+		'after_title' => '</div>',
+	));
 }
 
 // Footer Widget
@@ -163,4 +142,3 @@ function Footerwidget() {
 		'after_widget' => '</div>',
 	));
 }
-
