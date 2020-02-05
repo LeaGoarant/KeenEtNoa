@@ -183,7 +183,7 @@ h1 {
   margin-bottom: 5%;
 }
 
-#text-home {
+#text-home, #newsletter {
   background-color: #f4f4f2;
 }
 
@@ -236,27 +236,28 @@ h2 {
 }
 
 @media (max-width: 575.98px) {
-  table {
+  .home-tb {
     margin-left: 5%;
     margin-right: 5%;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  table {
+  .home-tb {
     margin-left: 7%;
   }
 }
 
 @media (min-width: 767.98px) and (max-width: 991.98px) {
-  table {
+  .home-tb {
     margin-left: 13%;
   }
 }
 
-@media (min-width: 991.98px) {
-  table {
+@media (min-width: 991.98px){
+  .home-tb {
     margin-left: 28%;
+    margin-bottom: 5%;
   }
 }
 
@@ -278,6 +279,11 @@ h2 {
 
 .home-table > th {
   height: 50px;
+}
+
+.home-form {
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 /* CONTACT */
@@ -415,6 +421,12 @@ h2 {
   margin-bottom: 10%;
 }
 
+@media (max-width: 767.98px){
+  .discovery_table, .regular_table, .premium_table { 
+    display: none;
+  }
+}
+
 @media (min-width: 767.98px) and (max-width: 991.98px) {
   .discovery_table {
     margin-left: 5%;
@@ -431,6 +443,7 @@ h2 {
   .premium_table {
     margin-left: 5%;
     margin-right: 5%;
+
   }
 }
 
@@ -463,8 +476,30 @@ th {
   width: 50%;
 }
 
+@media (max-width: 767.98px){
+  .btn-primary {
+    width: auto;
+  }
+}
+
 .btn-primary:hover {
   background-color: #dce4cb;
+}
+
+@media (min-width: 767.98px) {
+  #accordionMobile {
+    display: none;
+  }
+}
+
+#accordionMobile {
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.col-md-12, .col-lg-4 > .premium_table {
+  padding-right: 0px !important;
 }
 
 /* SHOP */
@@ -634,6 +669,12 @@ figure img {
 .woocommerce a.button:hover {
   background-color: transparent;
   text-decoration: underline;
+}
+
+.input-text.qty.text {
+  border-width: 1px;
+  border-color: #d3b38ba6;
+  border-radius: 10px;
 }
 
 /* PANIER */

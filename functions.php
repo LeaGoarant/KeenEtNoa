@@ -10,6 +10,7 @@ function customtheme_add_woocommerce_support()
 require_once('PageTemplater/pagetemplater.php');
 require_once('wp-bootstrap-navwalker.php');
 require_once('keen-options/custom.php');
+require_once('js/truncatdesc.php');
 
 
 /* file d'attente des scripts et des styles*/
@@ -100,8 +101,6 @@ function addBootstrapToCheckoutFields($fields)
 remove_action('woocommerce_account_navigation', 'woocommerce_account_navigation');
 
 
-
-
 /* Add Widget section */
 add_action('widgets_init', 'KeenWidget');
 function Keenwidget()
@@ -116,3 +115,4 @@ function Keenwidget()
 		'after_title' => '</div>',
 	));
 }
+
