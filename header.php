@@ -26,7 +26,7 @@
 
     <header id="masthead" class="site-header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a href="<?php echo get_home_url(); ?>"><img src="<?= get_option('logo', '');?>" class="keencustom"></a>
+            <a href="<?php echo get_home_url(); ?>"><img src="<?= get_option('logo', ''); ?>" class="keencustom"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,18 +36,19 @@
                 wp_nav_menu(
                     array(
                         'menu' => 'top_menu',
+                        'menu_id' => 'primary-menu',
                         'depth' => 2,
                         'container' => false,
                         'menu_class' => 'nav',
-                        //Process nav menu using our custom nav walker
                         'walker' => new wp_bootstrap_navwalker()
+
                     )
                 );
                 ?>
 
-            <button class="btn btn-outline" type="submit" id="button-addon2" data-toggle="collapse" data-target="#searchbar">
-                <i class="fas fa-search"></i>
-            </button>
+                <button class="btn btn-outline" type="submit" id="button-addon2" data-toggle="collapse" data-target="#searchbar">
+                    <i class="fas fa-search"></i>
+                </button>
                 <div class="collapse" id="searchbar">
                     <form class="form-inline ml-auto">
                         <div class="md-form my-0">
