@@ -33,40 +33,37 @@ function keen_manage_theme()
         }
     }
 ?>
-    <div class="keenetnoa_admin">
-        <h1>Options Thème Keenetnoa</h1>
 
-        <table class="table table-bordered">
-            <form action="" method="POST">
-                <tr class="">
-                    <th class="" scope="row">
-                        <label>Logo du site</label>
-                    </th>
-                    <input type="hidden" id="logo" name="options[logo]" value="<?php get_option('logo', ''); ?>" size="75">
-                    <td>
-                        <a href="#" class="button keencustom">Choisir une image</a>
-                    </td>
-                    <td>
-                        <img id="logo" src="<?= get_option('logo', ''); ?>" width="250" class="keencustom">
-                    </td>
-                </tr>
-                <tr>
-                    <th class="" scope="row">
-                        <label>Bannière du site</label>
-                    </th>
-                    <input type="hidden" id="banniere" name="options[banniere]" value="<?php get_option('banniere', ''); ?>" size="75">
-                    <td>
-                        <a href="#" class="button keencustomban">Choisir une image</a>
-                    </td>
-                    <td>
-                        <img id="Keenban" src="<?= get_option('banniere', ''); ?>" width="250" class="keencustomban">
-                    </td>
-                </tr>
-            </form>
-        </table>
-        <input type="submit" name="panel_update" class="button-primary autowidth" value="Sauvegarder">
+    <form action="" method="POST">
 
-    </div>
+        <div class="row ">
+
+            <div class="card col-12" ">
+                <div class=" card-header">
+                <h3 class="card-title">Options Thème Keenetnoa</h3>
+
+            </div>
+            <div class="card-body adminkeen d-flex justify-content-around">
+
+                <label class="">Logo du site</label>
+                <input class="" type="hidden" id="logo" name="options[logo]" value="<?php get_option('logo', ''); ?>" size="75">
+                <a href="#" class="button keencustom adminkeen-button ">Choisir une image</a>
+                <img id="logo" src="<?= get_option('logo', ''); ?>" width="250" class="keencustom   ">
+            </div>
+            <div class="card-footer">
+                <input type="submit" name="panel_update" class="button-primary autowidth" value="Sauvegarder">
+            </div>
+        </div>
+
+        <!--             <label>Bannière du site</label>
+
+            <input type="hidden" id="banniere" name="options[banniere]" value="<?php get_option('banniere', ''); ?>" size="75">
+            <a href="#" class="button keencustomban">Choisir une image</a>
+            <img id="Keenban" src="<?= get_option('banniere', ''); ?>" width="250" class="keencustomban">
+ -->
+    </form>
+
+
 
 
 <?php
