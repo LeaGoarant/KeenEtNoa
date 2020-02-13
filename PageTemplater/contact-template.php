@@ -15,6 +15,7 @@
             <h4 style="color: #d3b28b;">Contact</h4>
             <br/>
             <p style="color: #67615a;">victor@keenetnoa.fr</p>
+            <p style="color: #67615a;">06 76 60 09 04</p>
             <br/>
             <p style="color: #67615a;">Nous nous ferons un plaisir de vous répondre dans les meilleurs délais.</p>
         </div>

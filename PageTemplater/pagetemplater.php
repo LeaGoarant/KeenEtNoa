@@ -75,6 +75,7 @@ class PageTemplater {
 			'salescondition-template.php' => 'Sales Conditions',
 			'confidentiality-template.php' => 'Confidentiality',
 			'cookies-template.php' => 'Cookies',
+			'who-template.php' => 'Who are we ?'
 		);
 
 	}
