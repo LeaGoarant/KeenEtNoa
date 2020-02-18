@@ -84,7 +84,7 @@
         </p>
         <br/>
         <div class="img-food">
-            <img class="img-box img-fluid" src="https://www.slowlyveggie.fr/wp-content/uploads/sites/5/2018/01/box-vegan-11.jpg" alt ="foodbox"/>
+            <img class="img-box img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/box-homepage.png" alt ="foodbox"/>
         </div>
     </div>
 
