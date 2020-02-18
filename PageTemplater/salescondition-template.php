@@ -311,7 +311,7 @@
 <b>ARTICLE 8 - </b><b>Livraisons</b>
 <br/>
 <br/>
-<span style="font-weight: 400;">Les Produits commandés par le Client seront livrés en France métropolitaine dans un délai de sept (7) jours à compter de l'expédition de la commande, le délai d'expédition indiqué sur la fiche Produit auquel s'ajoute le délai de traitement et d'acheminement - à l'adresse indiquée par le Client lors de sa commande sur le site Internet </span><a href="http://www.keenetnoa.fr"><span style="font-weight: 400;">www.keenetnoa.fr</span></a><span style="font-weight: 400;">.</span>
+<span style="font-weight: 400;">Les Produits commandés par le Client seront livrés en France métropolitaine dans un délai de sept (7) jours à neuf (9) jours ouvrés à compter de l'expédition de la commande, le délai d'expédition indiqué sur la fiche Produit auquel s'ajoute le délai de traitement et d'acheminement - à l'adresse indiquée par le Client lors de sa commande sur le site Internet </span><a href="http://www.keenetnoa.fr"><span style="font-weight: 400;">www.keenetnoa.fr</span></a><span style="font-weight: 400;">.</span>
 
 <span style="font-weight: 400;">La livraison est constituée par le transfert au Client de la possession physique ou du contrôle du Produit.</span>
 
